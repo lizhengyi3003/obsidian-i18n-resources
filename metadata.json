@@ -50,5 +50,18 @@
         "created_at": "2026-05-23T06:01:12.627Z",
         "updated_at": "2026-05-23T06:01:12.627Z",
         "type": "plugin"
+    },
+    {
+        "id": "YxNKpSc-SK0obw5tdmRUknK7pAgqUIm9",
+        "plugin": "calendarium",
+        "language": "zh-cn",
+        "version": "2.1.0",
+        "supported_versions": "2.1.0",
+        "title": "[feichuan][zh-cn] Calendarium",
+        "description": "Calendarium Localization & Tweaks",
+        "hash": "4205c6b64205c6b64205c6b64205c6b6",
+        "created_at": "2026-05-23T06:01:23.937Z",
+        "updated_at": "2026-05-23T06:01:23.937Z",
+        "type": "plugin"
     }
 ]
