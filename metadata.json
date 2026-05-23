@@ -193,5 +193,18 @@
         "created_at": "2026-05-23T06:03:13.073Z",
         "updated_at": "2026-05-23T06:03:13.073Z",
         "type": "plugin"
+    },
+    {
+        "id": "5MwnlGCha2RK61NNZdiaLYuG4uKPv24B",
+        "plugin": "obsidian-quiet-outline",
+        "language": "zh-cn",
+        "version": "0.5.13",
+        "supported_versions": "0.5.13",
+        "title": "[feichuan][zh-cn] Quiet Outline",
+        "description": "Quiet Outline Localization & Tweaks",
+        "hash": "4faaa3a64faaa3a64faaa3a64faaa3a6",
+        "created_at": "2026-05-23T06:03:20.389Z",
+        "updated_at": "2026-05-23T06:03:20.389Z",
+        "type": "plugin"
     }
 ]
