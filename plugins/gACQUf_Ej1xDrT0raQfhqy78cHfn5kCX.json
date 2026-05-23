@@ -1,0 +1,132 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "banners-reloaded",
+        "version": "1.0.0",
+        "title": "[feichuan][zh-cn] Banners Reloaded",
+        "description": "Banners Reloaded Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.7",
+        "author": "feichuan"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "swoosh",
+                    "target": "swoosh"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "blur",
+                    "target": "blur"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "gradient",
+                    "target": "gradient"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "solid",
+                    "target": "solid"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "right",
+                    "target": "right"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "center",
+                    "target": "center"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "left",
+                    "target": "left"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "edge",
+                    "target": "edge"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "bottom",
+                    "target": "bottom"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "top",
+                    "target": "top"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "shadow",
+                    "target": "shadow"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "border",
+                    "target": "border"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "none",
+                    "target": "none"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "img",
+                    "target": "img"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "strong",
+                    "target": "strong"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Banners Reloaded] Template processing reached the iteration limit...",
+                    "target": "[Banners Reloaded] 模板处理达到迭代限制..."
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(`Error procesando el archivo ${o.path}:`,f),this.logContainer.createEl(\"div\",{text:`${T(\"MODAL_CONVERSION_LOG_ERROR\")}${o.path}`})}const S=(E+1)/a*100,c=Math.round(S);this.progressBar.style.width=`${S}%`,this.progressBar.setText(`${c}%`)",
+                    "target": "error(`Error procesando el archivo ${o.path}:`,f),this.logContainer.createEl(\"div\",{text:`${T(\"MODAL_CONVERSION_LOG_ERROR\")}${o.path}`})}const S=(E+1)/a*100,c=Math.round(S);this.progressBar.style.width=`${S}%`,this.progressBar.setText(`${c}%`)"
+                }
+            ]
+        }
+    }
+}
