@@ -1,0 +1,268 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "start-page",
+        "version": "1.0.0",
+        "title": "[feichuan][zh-cn] Startpage",
+        "description": "Startpage Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.3.6",
+        "author": "feichuan"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "recent",
+                    "target": "最近"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "pinned",
+                    "target": "已固定"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "default",
+                    "target": "默认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "show",
+                    "target": "显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "hide",
+                    "target": "隐藏"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "ul",
+                    "target": "无序列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "li",
+                    "target": "列表项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "分区"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "跨度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create new note:",
+                    "target": "创建新笔记失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load footer text:",
+                    "target": "加载页脚文本失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error importing bookmarks:",
+                    "target": "导入书签时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error checking for updates:",
+                    "target": "检查更新时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error cleaning up backup files:",
+                    "target": "清理备份文件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create Start Page leaf:",
+                    "target": "创建起始页标签页失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create Start Page leaf in new tab:",
+                    "target": "在新标签页中创建起始页标签页失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to replace with Start Page:",
+                    "target": "替换为起始页失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Error fetching Chinese footer text:",
+                    "target": "获取中文页脚文本时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Error fetching English footer text:",
+                    "target": "获取英文页脚文本时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "data.json file does not exist, skipping backup",
+                    "target": "data.json 文件不存在，跳过备份"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Aa",
+                    "target": "Aa"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to check for updates:",
+                    "target": "检查更新失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Could not determine latest version",
+                    "target": "无法确定最新版本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "control-button icon-button",
+                    "target": "control-button icon-button"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "mod-warning remove-button control-button icon-button",
+                    "target": "mod-warning remove-button control-button icon-button"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "[Folder] ",
+                    "target": "[文件夹] "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "[File] ",
+                    "target": "[文件] "
+                }
+            ],
+            "regex": [
+                {
+                    "source": "log(\"Error fetching Chinese footer text:\",s.status,s.text)}catch(s){console.log(\"Error fetching Chinese footer text:\",s)}return a(\"default_footer_text\")",
+                    "target": "log(\"Error fetching Chinese footer text:\",s.status,s.text)}catch(s){console.log(\"Error fetching Chinese footer text:\",s)}return a(\"default_footer_text\")"
+                },
+                {
+                    "source": "log(\"Error fetching English footer text:\",s.status,s.text)}catch(s){console.log(\"Error fetching English footer text:\",s)}return a(\"default_footer_text\")",
+                    "target": "log(\"Error fetching English footer text:\",s.status,s.text)}catch(s){console.log(\"Error fetching English footer text:\",s)}return a(\"default_footer_text\")"
+                },
+                {
+                    "source": "error(\"Failed to create new note:\",t)}}getMatchedAlias(e,t){if(!e||!t)return null;let s=Array.isArray(e)?e:[e],i=this.caseSensitive?t:t.toLowerCase();for(let o of s){if(typeof o!=\"string\")",
+                    "target": "error(\"Failed to create new note:\",t)}}getMatchedAlias(e,t){if(!e||!t)return null;let s=Array.isArray(e)?e:[e],i=this.caseSensitive?t:t.toLowerCase();for(let o of s){if(typeof o!=\"string\")"
+                },
+                {
+                    "source": "error(\"Failed to load footer text:\",e)}}createElement(n,e=\"\",t=\"\")",
+                    "target": "error(\"Failed to load footer text:\",e)}}createElement(n,e=\"\",t=\"\")"
+                },
+                {
+                    "source": "error(\"Error importing bookmarks:\",s),new v.Notice(a(\"import_bookmarks_no_bookmarks\")",
+                    "target": "error(\"Error importing bookmarks:\",s),new v.Notice(a(\"import_bookmarks_no_bookmarks\")"
+                },
+                {
+                    "source": "error(\"Error checking for updates:\",s),null}}static compareVersions(n,e){let t=n.split(\".\")",
+                    "target": "error(\"Error checking for updates:\",s),null}}static compareVersions(n,e){let t=n.split(\".\")"
+                },
+                {
+                    "source": "log(\"data.json file does not exist, skipping backup\")",
+                    "target": "log(\"data.json file does not exist, skipping backup\")"
+                },
+                {
+                    "source": "log(`Deleted old backup file: ${o.file}`)",
+                    "target": "log(`Deleted old backup file: ${o.file}`)"
+                },
+                {
+                    "source": "page:\"Start page\"",
+                    "target": "page:\"Start page\""
+                },
+                {
+                    "source": "settings:\"Start page settings\"",
+                    "target": "settings:\"Start page settings\""
+                },
+                {
+                    "source": "settings:\"Pinned notes settings\"",
+                    "target": "settings:\"Pinned notes settings\""
+                },
+                {
+                    "source": "page:\"Open start page\"",
+                    "target": "page:\"Open start page\""
+                },
+                {
+                    "source": "text:\"Show custom footer text\"",
+                    "target": "text:\"Show custom footer text\""
+                },
+                {
+                    "source": "text:\"Use random footer text\"",
+                    "target": "text:\"Use random footer text\""
+                },
+                {
+                    "source": "text:\"Custom footer text\"",
+                    "target": "text:\"Custom footer text\""
+                },
+                {
+                    "source": "settings:\"Exclude settings\"",
+                    "target": "settings:\"Exclude settings\""
+                },
+                {
+                    "source": "settings:\"Exclusion settings\"",
+                    "target": "settings:\"Exclusion settings\""
+                },
+                {
+                    "source": "text:\",s)}return a(\"",
+                    "target": "text:\",s)}return a(\""
+                },
+                {
+                    "source": "text:\"[Folder] \"",
+                    "target": "text:\"[Folder] \""
+                },
+                {
+                    "source": "text:\"[File] \"",
+                    "target": "text:\"[File] \""
+                }
+            ]
+        }
+    }
+}
