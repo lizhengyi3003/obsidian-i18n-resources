@@ -37,5 +37,18 @@
         "created_at": "2026-05-23T06:01:04.663Z",
         "updated_at": "2026-05-23T06:01:04.663Z",
         "type": "plugin"
+    },
+    {
+        "id": "TgrMdx9asqQI0BaK6wE7I-rgSPycedYb",
+        "plugin": "buttons",
+        "language": "zh-cn",
+        "version": "0.9.13",
+        "supported_versions": "0.9.13",
+        "title": "[feichuan][zh-cn] Buttons",
+        "description": "Buttons Localization & Tweaks",
+        "hash": "049f43f9049f43f9049f43f9049f43f9",
+        "created_at": "2026-05-23T06:01:12.627Z",
+        "updated_at": "2026-05-23T06:01:12.627Z",
+        "type": "plugin"
     }
 ]
