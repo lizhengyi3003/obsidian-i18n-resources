@@ -141,5 +141,18 @@
         "created_at": "2026-05-23T06:02:10.055Z",
         "updated_at": "2026-05-23T06:02:10.055Z",
         "type": "plugin"
+    },
+    {
+        "id": "Oqo3aBE1dtWgcE_NnEsu2pWrYj3nVSRN",
+        "plugin": "home-tab",
+        "language": "zh-cn",
+        "version": "1.0.1",
+        "supported_versions": "1.0.1",
+        "title": "[feichuan][zh-cn] Home tab",
+        "description": "Home tab Localization & Tweaks",
+        "hash": "602c6849602c6849602c6849602c6849",
+        "created_at": "2026-05-23T06:02:17.666Z",
+        "updated_at": "2026-05-23T06:02:17.666Z",
+        "type": "plugin"
     }
 ]
