@@ -89,5 +89,18 @@
         "created_at": "2026-05-23T06:01:37.805Z",
         "updated_at": "2026-05-23T06:01:37.805Z",
         "type": "plugin"
+    },
+    {
+        "id": "b0T8GGfykphREpJcBk4XYI1BHiit7tiN",
+        "plugin": "editing-toolbar",
+        "language": "zh-cn",
+        "version": "4.0.8",
+        "supported_versions": "4.0.8",
+        "title": "[feichuan][zh-cn] Editing Toolbar",
+        "description": "Editing Toolbar Localization & Tweaks",
+        "hash": "6de68b296de68b296de68b296de68b29",
+        "created_at": "2026-05-23T06:01:47.014Z",
+        "updated_at": "2026-05-23T06:01:47.014Z",
+        "type": "plugin"
     }
 ]
