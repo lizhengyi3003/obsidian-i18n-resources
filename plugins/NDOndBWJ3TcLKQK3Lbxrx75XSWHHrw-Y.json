@@ -1,0 +1,2080 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-projects",
+        "version": "1.0.0",
+        "title": "[feichuan][zh-cn] Projects",
+        "description": "Projects Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.17.1",
+        "author": "feichuan"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<input type=\"checkbox\"/>",
+                    "target": "<input type=\"checkbox\"/>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<div class=\"sk-cube sk-cube1\"></div> \n\t<div class=\"sk-cube sk-cube2\"></div> \n\t<div class=\"sk-cube sk-cube3\"></div> \n\t<div class=\"sk-cube sk-cube4\"></div> \n\t<div class=\"sk-cube sk-cube5\"></div> \n\t<div class=\"sk-cube sk-cube6\"></div> \n\t<div class=\"sk-cube sk-cube7\"></div> \n\t<div class=\"sk-cube sk-cube8\"></div> \n\t<div class=\"sk-cube sk-cube9\"></div>",
+                    "target": "<div class=\"sk-cube sk-cube1\"></div> \n\t<div class=\"sk-cube sk-cube2\"></div> \n\t<div class=\"sk-cube sk-cube3\"></div> \n\t<div class=\"sk-cube sk-cube4\"></div> \n\t<div class=\"sk-cube sk-cube5\"></div> \n\t<div class=\"sk-cube sk-cube6\"></div> \n\t<div class=\"sk-cube sk-cube7\"></div> \n\t<div class=\"sk-cube sk-cube8\"></div> \n\t<div class=\"sk-cube sk-cube9\"></div>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<li>In the top-right corner of the <strong>Projects</strong>\n          view, click\n          <strong>New</strong>.</li> \n        <li>Click <strong>New project</strong>.</li>",
+                    "target": "<li>在 <strong>Projects</strong> 视图的右上角，点击 <strong>New</strong>。</li> \n        <li>点击 <strong>New project</strong>。</li>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<li>Open the <strong>Command palette</strong>.</li> \n        <li>Search for <strong>Create new project</strong></li> \n        <li>Press <strong>Enter</strong>.</li>",
+                    "target": "<li>打开 <strong>Command palette</strong>。</li> \n        <li>搜索 <strong>Create new project</strong>。</li> \n        <li>按下 <strong>Enter</strong>。</li>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<li>Right-click a folder in <strong>File explorer</strong>.</li> \n        <li>Click <strong>Create project in folder</strong>.</li>",
+                    "target": "<li>在 <strong>File explorer</strong> 中右键点击文件夹。</li> \n        <li>点击 <strong>Create project in folder</strong>。</li>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<code>---\nstatus: Backlog\ndue: 2023-01-01\npublished: false\n---\n\n# My blog post</code>",
+                    "target": "<code>---\nstatus: Backlog\ndue: 2023-01-01\npublished: false\n---\n\n# My blog post</code>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<strong>Psst! \\u{1F44B}</strong> Next time you can create your projects using any of\n    the following ways:",
+                    "target": "<strong>Psst! 👋</strong> 下次你可以通过以下任一方式创建项目："
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Issues marked as errors don't show up in your views. Fix the reported\n      issue to include them.",
+                    "target": "标记为错误的议题不会显示在视图中。修复报告的问题以将其包含在内。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "front matter",
+                    "target": "front matter"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Your environment seems not to be Intl API compatible, use an Intl.PluralRules polyfill. Will fallback to the compatibilityJSON v3 format handling.",
+                    "target": "您的环境似乎不兼容 Intl API，请使用 Intl.PluralRules polyfill。将回退到 compatibilityJSON v3 格式处理。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "initialized",
+                    "target": "initialized"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Component was already destroyed",
+                    "target": "Component was already destroyed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "accessing an object - but returnObjects options is not enabled!",
+                    "target": "accessing an object - but returnObjects options is not enabled!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Seems the loaded translations were in flat JSON format instead of nested. Either set keySeparator: false on init or make sure your translations are published in nested format.",
+                    "target": "Seems the loaded translations were in flat JSON format instead of nested. Either set keySeparator: false on init or make sure your translations are published in nested format."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "This means something IS WRONG in your setup. You access the t function before i18next.init / i18next.loadNamespace / i18next.changeLanguage was done. Wait for the callback or Promise to resolve before accessing it!!!",
+                    "target": "This means something IS WRONG in your setup. You access the t function before i18next.init / i18next.loadNamespace / i18next.changeLanguage was done. Wait for the callback or Promise to resolve before accessing it!!!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No backend was added via i18next.use. Will not load resources.",
+                    "target": "No backend was added via i18next.use. Will not load resources."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: no languageDetector is used and no lng is defined",
+                    "target": "init: no languageDetector is used and no lng is defined"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: i18next is already initialized. You should call init just once!",
+                    "target": "init: i18next is already initialized. You should call init just once!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "hasLoadedNamespace: i18next was not initialized",
+                    "target": "hasLoadedNamespace: i18next was not initialized"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "hasLoadedNamespace: i18n.languages were undefined or empty",
+                    "target": "hasLoadedNamespace: i18n.languages were undefined or empty"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "dndzone will ignore unknown options",
+                    "target": "dndzone will ignore unknown options"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Select a Date field to create calendar events.",
+                    "target": "选择一个日期字段以创建日历事件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Can't create calendar events in read-only projects.",
+                    "target": "无法在只读项目中创建日历事件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Sort Z → A",
+                    "target": "排序 Z → A"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Sort New → Old",
+                    "target": "排序 新 → 旧"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Avoid accidentally loading too many notes.",
+                    "target": "避免意外加载过多笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Determines what happens when you select the link of a note. Press {{modifier}} while selecting link for opposite behavior.",
+                    "target": "决定选择笔记链接时的行为。按下 {{modifier}} 键同时选择链接可执行相反操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Add commands for your favorite projects and views.",
+                    "target": "为您最常用的项目和视图添加命令。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Restore or delete your archived projects.",
+                    "target": "恢复或删除已归档的项目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "降序 Z → A",
+                    "target": "降序 Z → A"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "按日期降序 新 → 旧",
+                    "target": "按日期降序 新 → 旧"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "防止意外加载过多条目。",
+                    "target": "防止意外加载过多条目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择在 Projects 中点击链接时的行为。按下 {{modifier}} 键时点击将执行另一项。",
+                    "target": "选择在 Projects 中点击链接时的行为。按下 {{modifier}} 键时点击将执行另一项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "为你最常用的项目和视图添加命令到命令面板。",
+                    "target": "为你最常用的项目和视图添加命令到命令面板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "恢复或删除已存档项目。",
+                    "target": "恢复或删除已存档项目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Enable to open this project by default.",
+                    "target": "启用后默认打开此项目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Choose how you want to define which notes to include.",
+                    "target": "选择如何定义要包含的笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Path to the folder you want to manage. Leave empty to use root folder.",
+                    "target": "要管理的文件夹路径。留空则使用根文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Include all notes that have this tag.",
+                    "target": "包含所有带有此标签的笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Use Dataview to query read-only data instead of using paths.",
+                    "target": "使用 Dataview 查询只读数据，而非使用路径。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Only supports TABLE queries.",
+                    "target": "仅支持 TABLE 查询。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Manage notes inside subfolders within the project path.",
+                    "target": "管理项目路径内子文件夹中的笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Manage notes containing sub-tags of the project target tag.",
+                    "target": "管理包含项目目标标签子标签的笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Templates to choose from when you create new notes.",
+                    "target": "创建新笔记时可选择的模板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Notes to exclude even if they would otherwise be part of the project.",
+                    "target": "即使可能属于项目也要排除的笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Folder where all new notes are placed.",
+                    "target": "所有新笔记放置的文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Supports {{date:YYYY-MM-DD}} and {{time:HHmm}} templates variables.",
+                    "target": "支持 {{date:YYYY-MM-DD}} 和 {{time:HHmm}} 模板变量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Changing type isn't supported yet.",
+                    "target": "尚不支持更改类型。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Allows you to auto-complete using predefined values for the field.",
+                    "target": "允许使用字段的预定义值进行自动补全。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "For fields with Markdown content.",
+                    "target": "适用于包含 Markdown 内容的字段。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Width of each column in pixels.",
+                    "target": "每列的像素宽度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Width of each card in pixels.",
+                    "target": "每张卡片的像素宽度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "打开 Projects 插件窗口时，默认打开本项目。",
+                    "target": "打开 Projects 插件窗口时，默认打开本项目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "选择项目的数据来源。",
+                    "target": "选择项目的数据来源。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "目标文件夹路径。若为空值，路径将设为根目录。",
+                    "target": "目标文件夹路径。若为空值，路径将设为根目录。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "管理本仓库中所有含有该标签的笔记。",
+                    "target": "管理本仓库中所有含有该标签的笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "以 Dataview 查询结果创建只读项目。",
+                    "target": "以 Dataview 查询结果创建只读项目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "当前只支持 TABLE 查询语句。",
+                    "target": "当前只支持 TABLE 查询语句。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "管理项目文件夹下的所有子文件夹。",
+                    "target": "管理项目文件夹下的所有子文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "管理所有包含项目主标签及其子标签的笔记。",
+                    "target": "管理所有包含项目主标签及其子标签的笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "新建笔记时，从下列模板中选取新笔记模板。",
+                    "target": "新建笔记时，从下列模板中选取新笔记模板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "下列笔记将不会被本项目追踪。",
+                    "target": "下列笔记将不会被本项目追踪。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "新建的笔记将存放于该文件夹。",
+                    "target": "新建的笔记将存放于该文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "支持 {{date:YYYY-MM-DD}} 和 {{time:HHmm}} 格式的日期、时间模板变量。",
+                    "target": "支持 {{date:YYYY-MM-DD}} 和 {{time:HHmm}} 格式的日期、时间模板变量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "尚不支持修改字段类型。",
+                    "target": "尚不支持修改字段类型。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "在填写该字段内容时，将使用下面提供的预设值进行自动补全。",
+                    "target": "在填写该字段内容时，将使用下面提供的预设值进行自动补全。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "依照 Markdown 格式渲染字段内容。",
+                    "target": "依照 Markdown 格式渲染字段内容。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "调整每列的像素宽度。",
+                    "target": "调整每列的像素宽度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "调整每张卡片的像素宽度。",
+                    "target": "调整每张卡片的像素宽度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "No options",
+                    "target": "无选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "View",
+                    "target": "视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Project",
+                    "target": "项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "This view is empty.",
+                    "target": "该视图为空。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "No archived project.",
+                    "target": "没有已存档项目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "该视图还没有数据。",
+                    "target": "该视图还没有数据。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "没有已存档项目。",
+                    "target": "没有已存档项目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Front matter",
+                    "target": "Front matter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Color",
+                    "target": "颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Filter",
+                    "target": "筛选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Sort",
+                    "target": "排序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "条件颜色",
+                    "target": "条件颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "筛选",
+                    "target": "筛选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "排序",
+                    "target": "排序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "is not empty",
+                    "target": "不为空"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "is empty",
+                    "target": "为空"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "has any of",
+                    "target": "包含任意"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "has all of",
+                    "target": "包含全部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "has none of",
+                    "target": "不包含任何"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "is",
+                    "target": "是"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "is not",
+                    "target": "不是"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "contains",
+                    "target": "包含"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "does not contain",
+                    "target": "不包含"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "is checked",
+                    "target": "已勾选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "is not checked",
+                    "target": "未勾选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "is on",
+                    "target": "开启"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "is not on",
+                    "target": "未开启"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "is before",
+                    "target": "早于"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "is after",
+                    "target": "晚于"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "is on and before",
+                    "target": "当日及之前"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "is on and after",
+                    "target": "当日及之后"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "A → Z",
+                    "target": "A → Z"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Z → A",
+                    "target": "Z → A"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "1 → 9",
+                    "target": "1 → 9"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "9 → 1",
+                    "target": "9 → 1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "False → True",
+                    "target": "False → True"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "True → False",
+                    "target": "True → False"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Oldest → Newest",
+                    "target": "Oldest → Newest"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Newest → Oldest",
+                    "target": "Newest → Oldest"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Asc",
+                    "target": "升序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Desc",
+                    "target": "降序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Are you sure you want to archive \"{{project}}\"? You can restore it later in Projects plugin's setting tab.",
+                    "target": "确定要存档项目 \"{{project}}\" 吗？若需要，您可以在 Projects 插件设置中恢复该项目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Are you sure you want to delete \"{{project}}\"? This cannot be undone.",
+                    "target": "确定要删除项目 \"{{project}}\" 吗？此操作不可撤销。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Enable the Dataview plugin to continue using this project.",
+                    "target": "启用 Dataview 插件以使用本项目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Are you sure you want to delete \"{{archive}}\"? This cannot be undone.",
+                    "target": "确定要删除存档 \"{{archive}}\" 吗？此操作不可撤销。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Are you sure you want to delete the view \"{{view}}\"?",
+                    "target": "确定要删除视图 \"{{view}}\" 吗？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "{{project}} is a read-only project. Select another project to create a note.",
+                    "target": "{{project}} 是一个只读项目，请选择其他项目以新建笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "This note has no editable fields.",
+                    "target": "这个笔记没有可编辑字段。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "确定要存档项目 \"{{project}}\" 吗？若需要，您可以在 Projects 插件设置中恢复该项目。",
+                    "target": "确定要存档项目 \"{{project}}\" 吗？若需要，您可以在 Projects 插件设置中恢复该项目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "确定要删除项目 \"{{project}}\" 吗？此操作不可撤销。",
+                    "target": "确定要删除项目 \"{{project}}\" 吗？此操作不可撤销。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "启用 Dataview 插件以使用本项目。",
+                    "target": "启用 Dataview 插件以使用本项目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "确定要删除存档 \"{{archive}}\" 吗？此操作不可撤销。",
+                    "target": "确定要删除存档 \"{{archive}}\" 吗？此操作不可撤销。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "确定要删除视图 \"{{view}}\" 吗？",
+                    "target": "确定要删除视图 \"{{view}}\" 吗？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "{{project}} 是一个只读项目，请选择其他项目以新建笔记。",
+                    "target": "{{project}} 是一个只读项目，请选择其他项目以新建笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "这个笔记的元数据没有可编辑字段。",
+                    "target": "这个笔记没有可编辑字段。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "en",
+                    "target": "en"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anno Domini",
+                    "target": "公元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Before Christ",
+                    "target": "公元前"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show projects",
+                    "target": "显示项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create new project",
+                    "target": "创建新项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create new note",
+                    "target": "创建新笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Name",
+                    "target": "名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set as default",
+                    "target": "设为默认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Data source",
+                    "target": "数据源"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Path",
+                    "target": "路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tag",
+                    "target": "标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Use Dataview",
+                    "target": "使用 Dataview"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Query",
+                    "target": "查询"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Include subfolders",
+                    "target": "包含子文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tag hierarchy",
+                    "target": "标签层级"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "More settings",
+                    "target": "更多设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Templates",
+                    "target": "模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Excluded notes",
+                    "target": "排除的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Location for new notes",
+                    "target": "新笔记位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Default name for new notes",
+                    "target": "新笔记默认名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Type",
+                    "target": "类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Template",
+                    "target": "模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Project",
+                    "target": "项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Options",
+                    "target": "选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable rich text formatting",
+                    "target": "启用富文本格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Default value",
+                    "target": "默认值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Developer",
+                    "target": "开发者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Table",
+                    "target": "表格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Board",
+                    "target": "看板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Board settings",
+                    "target": "看板设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Column width",
+                    "target": "列宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Calendar",
+                    "target": "日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Gallery",
+                    "target": "画册"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Gallery settings",
+                    "target": "画册设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Card width",
+                    "target": "卡片宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Project size limit",
+                    "target": "项目大小限制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Link behavior",
+                    "target": "链接行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Quote strings",
+                    "target": "引用字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Commands",
+                    "target": "命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Archives",
+                    "target": "归档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开项目",
+                    "target": "打开项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "新建项目",
+                    "target": "新建项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "新建笔记",
+                    "target": "新建笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "项目名称",
+                    "target": "项目名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "设为默认项目",
+                    "target": "设为默认项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "数据源",
+                    "target": "数据源"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "路径",
+                    "target": "路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "标签",
+                    "target": "标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dataview",
+                    "target": "Dataview"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "查询语句 (Query)",
+                    "target": "查询语句 (Query)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "管理子文件夹",
+                    "target": "管理子文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "嵌套标签",
+                    "target": "嵌套标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "更多设置",
+                    "target": "更多设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "模板",
+                    "target": "模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "排除笔记",
+                    "target": "排除笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "新建笔记位置",
+                    "target": "新建笔记位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "默认笔记名称",
+                    "target": "默认笔记名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "视图类型",
+                    "target": "视图类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "视图名称",
+                    "target": "视图名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "笔记名称",
+                    "target": "笔记名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "所属项目",
+                    "target": "所属项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "字段名称",
+                    "target": "字段名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "字段类型",
+                    "target": "字段类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "选项预设",
+                    "target": "选项预设"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "富文本",
+                    "target": "富文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "默认值",
+                    "target": "默认值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "开发者",
+                    "target": "开发者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "表格",
+                    "target": "表格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "看板",
+                    "target": "看板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "看板设置",
+                    "target": "看板设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列宽度",
+                    "target": "列宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "日历",
+                    "target": "日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "画册",
+                    "target": "画册"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "画册设置",
+                    "target": "画册设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "卡片宽度",
+                    "target": "卡片宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "最大条目数量",
+                    "target": "最大条目数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "链接行为",
+                    "target": "链接行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "使用引号包裹字符串",
+                    "target": "使用引号包裹字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "命令",
+                    "target": "命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "存档管理",
+                    "target": "存档管理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "arrow",
+                    "target": "arrow"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "flip",
+                    "target": "flip"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "hide",
+                    "target": "hide"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "offset",
+                    "target": "offset"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "filter",
+                    "target": "filter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "choose",
+                    "target": "choose"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "start",
+                    "target": "start"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "clone",
+                    "target": "clone"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "change",
+                    "target": "change"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "unchoose",
+                    "target": "unchoose"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "add",
+                    "target": "add"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "remove",
+                    "target": "remove"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "sort",
+                    "target": "sort"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "update",
+                    "target": "update"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "end",
+                    "target": "end"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "plus",
+                    "target": "plus"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Demo project",
+                    "target": "Demo project"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "slash",
+                    "target": "slash"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "image",
+                    "target": "image"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "list",
+                    "target": "list"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "forward",
+                    "target": "forward"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "tags",
+                    "target": "tags"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "notice",
+                    "source": "Project archived! If you are using Projects across multiple devices and syncing between them, please upgrade to version 1.17.0 or above for all your devices to avoid losing your archived project configurations.",
+                    "target": "Project archived! If you are using Projects across multiple devices and syncing between them, please upgrade to version 1.17.0 or above for all your devices to avoid losing your archived project configurations."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "notice",
+                    "source": "存档成功！若您在多个设备间同步使用 Projects，请确保将所有设备上的 Projects 都升级到 1.17.0 版本或以上，以避免存档的项目配置信息丢失。",
+                    "target": "存档成功！若您在多个设备间同步使用 Projects，请确保将所有设备上的 Projects 都升级到 1.17.0 版本或以上，以避免存档的项目配置信息丢失。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "TABLE status AS \"Status\" FROM \"Work\"",
+                    "target": "TABLE status AS \"Status\" FROM \"Work\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Create project in folder",
+                    "target": "Create project in folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Move to new window",
+                    "target": "Move to new window"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Create new project",
+                    "target": "Create new project"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Edit project",
+                    "target": "Edit project"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Duplicate project",
+                    "target": "Duplicate project"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Archive project",
+                    "target": "Archive project"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Delete project",
+                    "target": "Delete project"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Dataview is disabled",
+                    "target": "Dataview is disabled"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Delete archive",
+                    "target": "Delete archive"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Add new view",
+                    "target": "Add new view"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Duplicate view",
+                    "target": "Duplicate view"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Delete view",
+                    "target": "Delete view"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Create new note",
+                    "target": "Create new note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Read-only project",
+                    "target": "Read-only project"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Edit note",
+                    "target": "Edit note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "No editable fields",
+                    "target": "No editable fields"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Configure field",
+                    "target": "Configure field"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Create new field",
+                    "target": "Create new field"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "在文件夹中新建项目",
+                    "target": "在文件夹中新建项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "移动至新窗口",
+                    "target": "移动至新窗口"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "新建项目",
+                    "target": "新建项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "编辑项目",
+                    "target": "编辑项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "复制项目",
+                    "target": "复制项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "存档项目",
+                    "target": "存档项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "删除项目",
+                    "target": "删除项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Dataview 插件未启用。",
+                    "target": "Dataview 插件未启用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "删除存档",
+                    "target": "删除存档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "新建视图",
+                    "target": "新建视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "复制视图",
+                    "target": "复制视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "删除视图",
+                    "target": "删除视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "新建笔记",
+                    "target": "新建笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "只读项目",
+                    "target": "只读项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "编辑笔记元数据",
+                    "target": "编辑笔记元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "没有可编辑字段。",
+                    "target": "没有可编辑字段。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "配置字段",
+                    "target": "配置字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "添加字段",
+                    "target": "添加字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Dataview 插件未启用",
+                    "target": "Dataview 插件未启用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Info",
+                    "target": "信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Restore this archive",
+                    "target": "恢复此存档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Delete this archive",
+                    "target": "删除此存档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Creates a new folder at the root of your vault with example notes.",
+                    "target": "在仓库根目录下创建一个包含示例笔记的新文件夹。"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "log(`{@debug} ${file ? file + \" \" : \"\"}(${line}:${column})`)",
+                    "target": "log(`{@debug} ${file ? file + \" \" : \"\"}(${line}:${column})`)"
+                },
+                {
+                    "source": "error(\"Your environment seems not to be Intl API compatible, use an Intl.PluralRules polyfill. Will fallback to the compatibilityJSON v3 format handling.\")",
+                    "target": "error(\"Your environment seems not to be Intl API compatible, use an Intl.PluralRules polyfill. Will fallback to the compatibilityJSON v3 format handling.\")"
+                },
+                {
+                    "source": "log(\"\".concat(prefix, \"loaded namespace \")",
+                    "target": "log(\"\".concat(prefix, \"loaded namespace \")"
+                },
+                {
+                    "source": "Notice(\"Select a Date field to create calendar events.\")",
+                    "target": "Notice(\"Select a Date field to create calendar events.\")"
+                },
+                {
+                    "source": "Notice(\"Can't create calendar events in read-only projects.\")",
+                    "target": "Notice(\"Can't create calendar events in read-only projects.\")"
+                },
+                {
+                    "source": "name: \"en\"",
+                    "target": "name: \"en\""
+                },
+                {
+                    "source": "name: \"Anno Domini\"",
+                    "target": "name: \"Anno Domini\""
+                },
+                {
+                    "source": "name: \"Before Christ\"",
+                    "target": "name: \"Before Christ\""
+                },
+                {
+                    "source": "name = `__svelte_${hash4(rule)}_${uid}`",
+                    "target": "name = `__svelte_${hash4(rule)}_${uid}`"
+                },
+                {
+                    "source": "name = `__svelte_${hash(rule)}_${uid}`",
+                    "target": "name = `__svelte_${hash(rule)}_${uid}`"
+                },
+                {
+                    "source": "name = \"\"",
+                    "target": "name = \"\""
+                },
+                {
+                    "source": "name: \"Show projects\"",
+                    "target": "name: \"Show projects\""
+                },
+                {
+                    "source": "name: \"Create new project\"",
+                    "target": "name: \"Create new project\""
+                },
+                {
+                    "source": "name: \"Create new note\"",
+                    "target": "name: \"Create new note\""
+                },
+                {
+                    "source": "name: \"Name\"",
+                    "target": "name: \"Name\""
+                },
+                {
+                    "source": "description: \"\"",
+                    "target": "description: \"\""
+                },
+                {
+                    "source": "name: \"Set as default\"",
+                    "target": "name: \"Set as default\""
+                },
+                {
+                    "source": "description: \"Enable to open this project by default.\"",
+                    "target": "description: \"Enable to open this project by default.\""
+                },
+                {
+                    "source": "name: \"Data source\"",
+                    "target": "name: \"Data source\""
+                },
+                {
+                    "source": "description: \"Choose how you want to define which notes to include.\"",
+                    "target": "description: \"Choose how you want to define which notes to include.\""
+                },
+                {
+                    "source": "name: \"Path\"",
+                    "target": "name: \"Path\""
+                },
+                {
+                    "source": "description: \"Path to the folder you want to manage. Leave empty to use root folder.\"",
+                    "target": "description: \"Path to the folder you want to manage. Leave empty to use root folder.\""
+                },
+                {
+                    "source": "name: \"Tag\"",
+                    "target": "name: \"Tag\""
+                },
+                {
+                    "source": "description: \"Include all notes that have this tag.\"",
+                    "target": "description: \"Include all notes that have this tag.\""
+                },
+                {
+                    "source": "name: \"Use Dataview\"",
+                    "target": "name: \"Use Dataview\""
+                },
+                {
+                    "source": "description: \"Use Dataview to query read-only data instead of using paths.\"",
+                    "target": "description: \"Use Dataview to query read-only data instead of using paths.\""
+                },
+                {
+                    "source": "name: \"Query\"",
+                    "target": "name: \"Query\""
+                },
+                {
+                    "source": "description: \"Only supports TABLE queries.\"",
+                    "target": "description: \"Only supports TABLE queries.\""
+                },
+                {
+                    "source": "name: \"Include subfolders\"",
+                    "target": "name: \"Include subfolders\""
+                },
+                {
+                    "source": "description: \"Manage notes inside subfolders within the project path.\"",
+                    "target": "description: \"Manage notes inside subfolders within the project path.\""
+                },
+                {
+                    "source": "name: \"Tag hierarchy\"",
+                    "target": "name: \"Tag hierarchy\""
+                },
+                {
+                    "source": "description: \"Manage notes containing sub-tags of the project target tag.\"",
+                    "target": "description: \"Manage notes containing sub-tags of the project target tag.\""
+                },
+                {
+                    "source": "name: \"More settings\"",
+                    "target": "name: \"More settings\""
+                },
+                {
+                    "source": "name: \"Templates\"",
+                    "target": "name: \"Templates\""
+                },
+                {
+                    "source": "description: \"Templates to choose from when you create new notes.\"",
+                    "target": "description: \"Templates to choose from when you create new notes.\""
+                },
+                {
+                    "source": "name: \"Excluded notes\"",
+                    "target": "name: \"Excluded notes\""
+                },
+                {
+                    "source": "description: \"Notes to exclude even if they would otherwise be part of the project.\"",
+                    "target": "description: \"Notes to exclude even if they would otherwise be part of the project.\""
+                },
+                {
+                    "source": "name: \"Location for new notes\"",
+                    "target": "name: \"Location for new notes\""
+                },
+                {
+                    "source": "description: \"Folder where all new notes are placed.\"",
+                    "target": "description: \"Folder where all new notes are placed.\""
+                },
+                {
+                    "source": "name: \"Default name for new notes\"",
+                    "target": "name: \"Default name for new notes\""
+                },
+                {
+                    "source": "description: \"Supports {{date:YYYY-MM-DD}} and {{time:HHmm}} templates variables.\"",
+                    "target": "description: \"Supports {{date:YYYY-MM-DD}} and {{time:HHmm}} templates variables.\""
+                },
+                {
+                    "source": "name: \"Type\"",
+                    "target": "name: \"Type\""
+                },
+                {
+                    "source": "name: \"Template\"",
+                    "target": "name: \"Template\""
+                },
+                {
+                    "source": "name: \"Project\"",
+                    "target": "name: \"Project\""
+                },
+                {
+                    "source": "description: \"Changing type isn't supported yet.\"",
+                    "target": "description: \"Changing type isn't supported yet.\""
+                },
+                {
+                    "source": "name: \"Options\"",
+                    "target": "name: \"Options\""
+                },
+                {
+                    "source": "description: \"Allows you to auto-complete using predefined values for the field.\"",
+                    "target": "description: \"Allows you to auto-complete using predefined values for the field.\""
+                },
+                {
+                    "source": "name: \"Enable rich text formatting\"",
+                    "target": "name: \"Enable rich text formatting\""
+                },
+                {
+                    "source": "description: \"For fields with Markdown content.\"",
+                    "target": "description: \"For fields with Markdown content.\""
+                },
+                {
+                    "source": "name: \"Default value\"",
+                    "target": "name: \"Default value\""
+                },
+                {
+                    "source": "name: \"Developer\"",
+                    "target": "name: \"Developer\""
+                },
+                {
+                    "source": "name: \"Table\"",
+                    "target": "name: \"Table\""
+                },
+                {
+                    "source": "name: \"Rename\"",
+                    "target": "name: \"Rename\""
+                },
+                {
+                    "source": "name: \"Board\"",
+                    "target": "name: \"Board\""
+                },
+                {
+                    "source": "name: \"Board settings\"",
+                    "target": "name: \"Board settings\""
+                },
+                {
+                    "source": "name: \"Column width\"",
+                    "target": "name: \"Column width\""
+                },
+                {
+                    "source": "description: \"Width of each column in pixels.\"",
+                    "target": "description: \"Width of each column in pixels.\""
+                },
+                {
+                    "source": "name: \"Calendar\"",
+                    "target": "name: \"Calendar\""
+                },
+                {
+                    "source": "name: \"Gallery\"",
+                    "target": "name: \"Gallery\""
+                },
+                {
+                    "source": "name: \"Gallery settings\"",
+                    "target": "name: \"Gallery settings\""
+                },
+                {
+                    "source": "name: \"Card width\"",
+                    "target": "name: \"Card width\""
+                },
+                {
+                    "source": "description: \"Width of each card in pixels.\"",
+                    "target": "description: \"Width of each card in pixels.\""
+                },
+                {
+                    "source": "name: \"Rename field\"",
+                    "target": "name: \"Rename field\""
+                },
+                {
+                    "source": "name: \"Project size limit\"",
+                    "target": "name: \"Project size limit\""
+                },
+                {
+                    "source": "name: \"Link behavior\"",
+                    "target": "name: \"Link behavior\""
+                },
+                {
+                    "source": "name: \"Quote strings\"",
+                    "target": "name: \"Quote strings\""
+                },
+                {
+                    "source": "name: \"Commands\"",
+                    "target": "name: \"Commands\""
+                },
+                {
+                    "source": "name: \"Archives\"",
+                    "target": "name: \"Archives\""
+                },
+                {
+                    "source": "name: \"Dataview\"",
+                    "target": "name: \"Dataview\""
+                },
+                {
+                    "source": "name: \"applyStyles\"",
+                    "target": "name: \"applyStyles\""
+                },
+                {
+                    "source": "name: \"arrow\"",
+                    "target": "name: \"arrow\""
+                },
+                {
+                    "source": "name: \"computeStyles\"",
+                    "target": "name: \"computeStyles\""
+                },
+                {
+                    "source": "name: \"eventListeners\"",
+                    "target": "name: \"eventListeners\""
+                },
+                {
+                    "source": "name: \"flip\"",
+                    "target": "name: \"flip\""
+                },
+                {
+                    "source": "text: \"reference\"",
+                    "target": "text: \"reference\""
+                },
+                {
+                    "source": "name: \"hide\"",
+                    "target": "name: \"hide\""
+                },
+                {
+                    "source": "name: \"offset\"",
+                    "target": "name: \"offset\""
+                },
+                {
+                    "source": "name: \"popperOffsets\"",
+                    "target": "name: \"popperOffsets\""
+                },
+                {
+                    "source": "name: \"preventOverflow\"",
+                    "target": "name: \"preventOverflow\""
+                },
+                {
+                    "source": "description = \"\"",
+                    "target": "description = \"\""
+                },
+                {
+                    "source": "description: \"No options\"",
+                    "target": "description: \"No options\""
+                },
+                {
+                    "source": "name = \"Too many notes\"",
+                    "target": "name = \"Too many notes\""
+                },
+                {
+                    "source": "name: `${/*project*/\n      ctx[7].name}: ${/*view*/\n      ctx[10].name}`",
+                    "target": "name: `${/*project*/\n      ctx[7].name}: ${/*view*/\n      ctx[10].name}`"
+                },
+                {
+                    "source": "description: \"View\"",
+                    "target": "description: \"View\""
+                },
+                {
+                    "source": "name: `${/*project*/\n      ctx[7].name}`",
+                    "target": "name: `${/*project*/\n      ctx[7].name}`"
+                },
+                {
+                    "source": "description: \"Project\"",
+                    "target": "description: \"Project\""
+                },
+                {
+                    "source": "name: `${/*archive*/\n      ctx[9].name}`",
+                    "target": "name: `${/*archive*/\n      ctx[9].name}`"
+                },
+                {
+                    "source": "name : \"\"",
+                    "target": "name : \"\""
+                },
+                {
+                    "source": "name: \"filter\"",
+                    "target": "name: \"filter\""
+                },
+                {
+                    "source": "name: \"choose\"",
+                    "target": "name: \"choose\""
+                },
+                {
+                    "source": "name: \"start\"",
+                    "target": "name: \"start\""
+                },
+                {
+                    "source": "name: \"clone\"",
+                    "target": "name: \"clone\""
+                },
+                {
+                    "source": "name: \"change\"",
+                    "target": "name: \"change\""
+                },
+                {
+                    "source": "name: \"unchoose\"",
+                    "target": "name: \"unchoose\""
+                },
+                {
+                    "source": "name: \"add\"",
+                    "target": "name: \"add\""
+                },
+                {
+                    "source": "name: \"remove\"",
+                    "target": "name: \"remove\""
+                },
+                {
+                    "source": "name: \"sort\"",
+                    "target": "name: \"sort\""
+                },
+                {
+                    "source": "name: \"update\"",
+                    "target": "name: \"update\""
+                },
+                {
+                    "source": "name: \"end\"",
+                    "target": "name: \"end\""
+                },
+                {
+                    "source": "name: \"plus\"",
+                    "target": "name: \"plus\""
+                },
+                {
+                    "source": "name: \"grip-vertical\"",
+                    "target": "name: \"grip-vertical\""
+                },
+                {
+                    "source": "name: \"Demo project\"",
+                    "target": "name: \"Demo project\""
+                },
+                {
+                    "source": "textContent = \"front matter\"",
+                    "target": "textContent = \"front matter\""
+                },
+                {
+                    "source": "name: `[[${file.path}|${file.basename}]]`",
+                    "target": "name: `[[${file.path}|${file.basename}]]`"
+                },
+                {
+                    "source": "name: \"slash\"",
+                    "target": "name: \"slash\""
+                },
+                {
+                    "source": "name: \"image\"",
+                    "target": "name: \"image\""
+                },
+                {
+                    "source": "name: \"list\"",
+                    "target": "name: \"list\""
+                },
+                {
+                    "source": "name: \"forward\"",
+                    "target": "name: \"forward\""
+                },
+                {
+                    "source": "name: \"tags\"",
+                    "target": "name: \"tags\""
+                },
+                {
+                    "source": "name: `Show ${project.name}`",
+                    "target": "name: `Show ${project.name}`"
+                }
+            ]
+        }
+    }
+}
