@@ -180,5 +180,18 @@
         "created_at": "2026-05-23T06:03:06.884Z",
         "updated_at": "2026-05-23T06:03:06.884Z",
         "type": "plugin"
+    },
+    {
+        "id": "NDOndBWJ3TcLKQK3Lbxrx75XSWHHrw-Y",
+        "plugin": "obsidian-projects",
+        "language": "zh-cn",
+        "version": "1.17.1",
+        "supported_versions": "1.17.1",
+        "title": "[feichuan][zh-cn] Projects",
+        "description": "Projects Localization & Tweaks",
+        "hash": "010fa2bd010fa2bd010fa2bd010fa2bd",
+        "created_at": "2026-05-23T06:03:13.073Z",
+        "updated_at": "2026-05-23T06:03:13.073Z",
+        "type": "plugin"
     }
 ]
