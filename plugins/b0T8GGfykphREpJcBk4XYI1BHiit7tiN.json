@@ -1,0 +1,2392 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "editing-toolbar",
+        "version": "1.0.0",
+        "title": "[feichuan][zh-cn] Editing Toolbar",
+        "description": "Editing Toolbar Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "4.0.8",
+        "author": "feichuan"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg  width=\"14\" height=\"14\"  version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1024 1024\" enable-background=\"new 0 0 1024 1024\" xml:space=\"preserve\"><path fill=\"#666\" d=\"M510.29 14.13 q17.09 -15.07 40.2 -14.07 q23.12 1 39.2 18.08 l334.66 385.92 q25.12 30.15 34.16 66.83 q9.04 36.68 0.5 73.87 q-8.54 37.19 -32.66 67.34 l-335.67 390.94 q-15.07 18.09 -38.69 20.1 q-23.62 2.01 -41.71 -13.07 q-18.08 -15.08 -20.09 -38.19 q-2.01 -23.12 13.06 -41.21 l334.66 -390.94 q11.06 -13.06 11.56 -29.65 q0.5 -16.58 -10.55 -29.64 l-334.67 -386.92 q-15.07 -17.09 -13.56 -40.7 q1.51 -23.62 19.59 -38.7 ZM81.17 14.13 q17.08 -15.07 40.19 -14.07 q23.11 1 39.2 18.08 l334.66 385.92 q25.12 30.15 34.16 66.83 q9.04 36.68 0.5 73.87 q-8.54 37.19 -32.66 67.34 l-335.67 390.94 q-15.07 18.09 -38.69 20.6 q-23.61 2.51 -41.7 -12.57 q-18.09 -15.08 -20.1 -38.69 q-2.01 -23.62 13.06 -41.71 l334.66 -390.94 q11.06 -13.06 11.56 -29.65 q0.5 -16.58 -10.55 -29.64 l-334.66 -386.92 q-15.08 -17.09 -13.57 -40.7 q1.51 -23.62 19.6 -38.7 Z\"/></svg>",
+                    "target": "<svg  width=\"14\" height=\"14\"  version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1024 1024\" enable-background=\"new 0 0 1024 1024\" xml:space=\"preserve\"><path fill=\"#666\" d=\"M510.29 14.13 q17.09 -15.07 40.2 -14.07 q23.12 1 39.2 18.08 l334.66 385.92 q25.12 30.15 34.16 66.83 q9.04 36.68 0.5 73.87 q-8.54 37.19 -32.66 67.34 l-335.67 390.94 q-15.07 18.09 -38.69 20.1 q-23.62 2.01 -41.71 -13.07 q-18.08 -15.08 -20.09 -38.19 q-2.01 -23.12 13.06 -41.21 l334.66 -390.94 q11.06 -13.06 11.56 -29.65 q0.5 -16.58 -10.55 -29.64 l-334.67 -386.92 q-15.07 -17.09 -13.56 -40.7 q1.51 -23.62 19.59 -38.7 ZM81.17 14.13 q17.08 -15.07 40.19 -14.07 q23.11 1 39.2 18.08 l334.66 385.92 q25.12 30.15 34.16 66.83 q9.04 36.68 0.5 73.87 q-8.54 37.19 -32.66 67.34 l-335.67 390.94 q-15.07 18.09 -38.69 20.6 q-23.61 2.51 -41.7 -12.57 q-18.09 -15.08 -20.1 -38.69 q-2.01 -23.62 13.06 -41.71 l334.66 -390.94 q11.06 -13.06 11.56 -29.65 q0.5 -16.58 -10.55 -29.64 l-334.66 -386.92 q-15.08 -17.09 -13.57 -40.7 q1.51 -23.62 19.6 -38.7 Z\"/></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M18 6L6 18M6 6l12 12\"/></svg>",
+                    "target": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M18 6L6 18M6 6l12 12\"/></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"3\"/><path d=\"M12 1v6m0 6v6M4.22 4.22l4.24 4.24m5.08 5.08l4.24 4.24M1 12h6m6 0h6M4.22 19.78l4.24-4.24m5.08-5.08l4.24-4.24\"/></svg>",
+                    "target": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"3\"/><path d=\"M12 1v6m0 6v6M4.22 4.22l4.24 4.24m5.08 5.08l4.24 4.24M1 12h6m6 0h6M4.22 19.78l4.24-4.24m5.08-5.08l4.24-4.24\"/></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8\"/><path d=\"M3 3v5h5\"/><path d=\"M12 7v5l4 2\"/></svg>",
+                    "target": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8\"/><path d=\"M3 3v5h5\"/><path d=\"M12 7v5l4 2\"/></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z\"/></svg>",
+                    "target": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z\"/></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M18 6L6 18M6 6l12 12\"/></svg>",
+                    "target": "<svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M18 6L6 18M6 6l12 12\"/></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "已复制!",
+                    "target": "已复制!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "custom",
+                    "target": "custom"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "All commands",
+                    "target": "All commands"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "all",
+                    "target": "all"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "mobile",
+                    "target": "mobile"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "fixed",
+                    "target": "fixed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "top",
+                    "target": "top"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "following",
+                    "target": "following"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "overwrite",
+                    "target": "overwrite"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "update",
+                    "target": "update"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Main menu",
+                    "target": "Main menu"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Main Menu Commands",
+                    "target": "Main Menu Commands"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "light",
+                    "target": "light"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "┌ Light",
+                    "target": "┌ Light"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "dark",
+                    "target": "dark"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "├ Dark",
+                    "target": "├ Dark"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "vibrant",
+                    "target": "vibrant"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "├ Vibrant",
+                    "target": "├ Vibrant"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "minimal",
+                    "target": "minimal"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "├ Minimal",
+                    "target": "├ Minimal"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "elegant",
+                    "target": "elegant"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "└ Elegant",
+                    "target": "└ Elegant"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "dropdown",
+                    "target": "dropdown"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "submenu",
+                    "target": "submenu"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "manual",
+                    "target": "manual"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ollama",
+                    "target": "ollama"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "---- Admonitions ----",
+                    "target": "---- Admonitions ----"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "---- Default ----",
+                    "target": "---- Default ----"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "closed",
+                    "target": "closed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "open",
+                    "target": "open"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "none",
+                    "target": "none"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "editing-toolbar-ai-card-summary editing-toolbar-ai-card-summary-static",
+                    "target": "editing-toolbar-ai-card-summary editing-toolbar-ai-card-summary-static"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "ul",
+                    "target": "ul"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "li",
+                    "target": "li"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "style",
+                    "target": "style"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "details",
+                    "target": "details"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "summary",
+                    "target": "summary"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "label",
+                    "target": "label"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "textarea",
+                    "target": "textarea"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "br",
+                    "target": "br"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "pre",
+                    "target": "pre"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "select",
+                    "target": "select"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "option",
+                    "target": "option"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "加载 Changelog 时出错:",
+                    "target": "加载 Changelog 时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "修复命令ID时出错:",
+                    "target": "修复命令ID时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "恢复默认设置时出错:",
+                    "target": "恢复默认设置时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to copy code: ",
+                    "target": "Failed to copy code: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "无法复制文本: ",
+                    "target": "无法复制文本: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to copy: ",
+                    "target": "Failed to copy: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Import error: ",
+                    "target": "Import error: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to set icon:",
+                    "target": "Failed to set icon:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot find parent dataset id",
+                    "target": "Cannot find parent dataset id"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot find parent command:",
+                    "target": "Cannot find parent command:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid drag operation",
+                    "target": "Invalid drag operation"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot find target dataset id",
+                    "target": "Cannot find target dataset id"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot find target command:",
+                    "target": "Cannot find target command:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to read clipboard:",
+                    "target": "Failed to read clipboard:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "读取剪贴板失败:",
+                    "target": "读取剪贴板失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "正则表达式命令执行错误:",
+                    "target": "正则表达式命令执行错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Copy failed:",
+                    "target": "Copy failed:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Paste failed:",
+                    "target": "Paste failed:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cut failed:",
+                    "target": "Cut failed:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "PKMer OAuth login error:",
+                    "target": "PKMer OAuth login error:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "PKMer OAuth callback error:",
+                    "target": "PKMer OAuth callback error:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Callback server error:",
+                    "target": "Callback server error:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to start callback server:",
+                    "target": "Failed to start callback server:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Token exchange failed:",
+                    "target": "Token exchange failed:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Token refresh failed:",
+                    "target": "Token refresh failed:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to fetch user info:",
+                    "target": "Failed to fetch user info:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[AI Completion] Error:",
+                    "target": "[AI Completion] Error:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[AI Rewrite] Failed to copy result:",
+                    "target": "[AI Rewrite] Failed to copy result:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[AI Artifact] Failed to create file:",
+                    "target": "[AI Artifact] Failed to create file:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[AI Rewrite] Error:",
+                    "target": "[AI Rewrite] Error:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[AI Settings] Failed to determine provider route:",
+                    "target": "[AI Settings] Failed to determine provider route:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Canvas AI] Failed to expand current node:",
+                    "target": "[Canvas AI] Failed to expand current node:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Canvas AI] Failed to run global instruction:",
+                    "target": "[Canvas AI] Failed to run global instruction:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Canvas AI] Failed to generate derived markdown:",
+                    "target": "[Canvas AI] Failed to generate derived markdown:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "color: Violet",
+                    "target": "color: Violet"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Editing Toolbar: Failed to find target DOM element for toolbar insertion",
+                    "target": "Editing Toolbar: Failed to find target DOM element for toolbar insertion"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "color: #989cab",
+                    "target": "color: #989cab"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "当前浏览器不支持Fullscreen API !",
+                    "target": "当前浏览器不支持Fullscreen API !"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "editing toolbar disable loading on mobile",
+                    "target": "editing toolbar disable loading on mobile"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "editingToolbar unloaded",
+                    "target": "editingToolbar unloaded"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "保存",
+                    "target": "保存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Edit Link(Modal)",
+                    "target": "Edit Link(Modal)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Canvas AI] Falling back to deterministic reorganization plan:",
+                    "target": "[Canvas AI] Falling back to deterministic reorganization plan:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "未能从 admonitionPlugin.admonitions (作为对象) 获取类型。",
+                    "target": "未能从 admonitionPlugin.admonitions (作为对象) 获取类型。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "The selected style has no commands to import.",
+                    "target": "The selected style has no commands to import."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "All commands have been removed.",
+                    "target": "All commands have been removed."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please select text first",
+                    "target": "Please select text first"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "picker",
+                    "target": "picker"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "editing-toolbar-ai-card editing-toolbar-ai-disclosure",
+                    "target": "editing-toolbar-ai-card editing-toolbar-ai-disclosure"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "editing-toolbar-ai-card-toggle checkbox-container",
+                    "target": "editing-toolbar-ai-card-toggle checkbox-container"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "editing-toolbar-ai-card-header-select dropdown",
+                    "target": "editing-toolbar-ai-card-header-select dropdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "mod-muted editing-toolbar-text-input-suggestion-chip",
+                    "target": "mod-muted editing-toolbar-text-input-suggestion-chip"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Reply with OK only.",
+                    "target": "Reply with OK only."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "ping",
+                    "target": "ping"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "You are an inline writing assistant inside Obsidian. Continue the text exactly at the cursor using only the local context around the cursor. Return only the continuation text, with no explanations, no markdown fences, and no quotes. Produce one complete semantic unit that fits the local structure, such as one full sentence, one complete bullet item, one heading continuation, or one short paragraph. Never stop mid-word, mid-sentence, or mid-list-item.",
+                    "target": "You are an inline writing assistant inside Obsidian. Continue the text exactly at the cursor using only the local context around the cursor. Return only the continuation text, with no explanations, no markdown fences, and no quotes. Produce one complete semantic unit that fits the local structure, such as one full sentence, one complete bullet item, one heading continuation, or one short paragraph. Never stop mid-word, mid-sentence, or mid-list-item."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "icon",
+                    "source": "eraser",
+                    "target": "eraser"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "icon",
+                    "source": "<svg width=\"24\" height=\"24\" focusable=\"false\" fill=\"currentColor\"><g fill-rule=\"evenodd\"><path id=\"change-font-color-icon\" d=\"M3 18h18v3H3z\" style=\"fill:#2DC26B\"></path><path d=\"M8.7 16h-.8a.5.5 0 01-.5-.6l2.7-9c.1-.3.3-.4.5-.4h2.8c.2 0 .4.1.5.4l2.7 9a.5.5 0 01-.5.6h-.8a.5.5 0 01-.4-.4l-.7-2.2c0-.3-.3-.4-.5-.4h-3.4c-.2 0-.4.1-.5.4l-.7 2.2c0 .3-.2.4-.4.4zm2.6-7.6l-.6 2a.5.5 0 00.5.6h1.6a.5.5 0 00.5-.6l-.6-2c0-.3-.3-.4-.5-.4h-.4c-.2 0-.4.1-.5.4z\"></path></g></svg>",
+                    "target": "<svg width=\"24\" height=\"24\" focusable=\"false\" fill=\"currentColor\"><g fill-rule=\"evenodd\"><path id=\"change-font-color-icon\" d=\"M3 18h18v3H3z\" style=\"fill:#2DC26B\"></path><path d=\"M8.7 16h-.8a.5.5 0 01-.5-.6l2.7-9c.1-.3.3-.4.5-.4h2.8c.2 0 .4.1.5.4l2.7 9a.5.5 0 01-.5.6h-.8a.5.5 0 01-.4-.4l-.7-2.2c0-.3-.3-.4-.5-.4h-3.4c-.2 0-.4.1-.5.4l-.7 2.2c0 .3-.2.4-.4.4zm2.6-7.6l-.6 2a.5.5 0 00.5.6h1.6a.5.5 0 00.5-.6l-.6-2c0-.3-.3-.4-.5-.4h-.4c-.2 0-.4.1-.5.4z\"></path></g></svg>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "icon",
+                    "source": "<svg width=\"18\" height=\"24\" viewBox=\"0 0 256 256\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"><g   stroke=\"none\" stroke-width=\"1\" fill=\"currentColor\" fill-rule=\"evenodd\"><g  ><g fill=\"currentColor\"><g transform=\"translate(119.502295, 137.878331) rotate(-135.000000) translate(-119.502295, -137.878331) translate(48.002295, 31.757731)\" ><path d=\"M100.946943,60.8084699 L43.7469427,60.8084699 C37.2852111,60.8084699 32.0469427,66.0467383 32.0469427,72.5084699 L32.0469427,118.70847 C32.0469427,125.170201 37.2852111,130.40847 43.7469427,130.40847 L100.946943,130.40847 C107.408674,130.40847 112.646943,125.170201 112.646943,118.70847 L112.646943,72.5084699 C112.646943,66.0467383 107.408674,60.8084699 100.946943,60.8084699 Z M93.646,79.808 L93.646,111.408 L51.046,111.408 L51.046,79.808 L93.646,79.808 Z\" fill-rule=\"nonzero\"></path><path d=\"M87.9366521,16.90916 L87.9194966,68.2000001 C87.9183543,69.4147389 86.9334998,70.399264 85.7187607,70.4 L56.9423078,70.4 C55.7272813,70.4 54.7423078,69.4150264 54.7423078,68.2 L54.7423078,39.4621057 C54.7423078,37.2523513 55.5736632,35.1234748 57.0711706,33.4985176 L76.4832996,12.4342613 C78.9534987,9.75382857 83.1289108,9.5834005 85.8093436,12.0535996 C87.1658473,13.303709 87.9372691,15.0644715 87.9366521,16.90916 Z\" fill-rule=\"evenodd\"></path><path d=\"M131.3,111.241199 L11.7,111.241199 C5.23826843,111.241199 0,116.479467 0,122.941199 L0,200.541199 C0,207.002931 5.23826843,212.241199 11.7,212.241199 L131.3,212.241199 C137.761732,212.241199 143,207.002931 143,200.541199 L143,122.941199 C143,116.479467 137.761732,111.241199 131.3,111.241199 Z M124,130.241 L124,193.241 L19,193.241 L19,130.241 L124,130.241 Z\" fill-rule=\"nonzero\"></path></g></g><path d=\"M51,218 L205,218 C211.075132,218 216,222.924868 216,229 C216,235.075132 211.075132,240 205,240 L51,240 C44.9248678,240 40,235.075132 40,229 C40,222.924868 44.9248678,218 51,218 Z\" id=\"change-background-color-icon\" style=\"fill:#FA541C\"></path></g></g></svg>",
+                    "target": "<svg width=\"18\" height=\"24\" viewBox=\"0 0 256 256\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"><g   stroke=\"none\" stroke-width=\"1\" fill=\"currentColor\" fill-rule=\"evenodd\"><g  ><g fill=\"currentColor\"><g transform=\"translate(119.502295, 137.878331) rotate(-135.000000) translate(-119.502295, -137.878331) translate(48.002295, 31.757731)\" ><path d=\"M100.946943,60.8084699 L43.7469427,60.8084699 C37.2852111,60.8084699 32.0469427,66.0467383 32.0469427,72.5084699 L32.0469427,118.70847 C32.0469427,125.170201 37.2852111,130.40847 43.7469427,130.40847 L100.946943,130.40847 C107.408674,130.40847 112.646943,125.170201 112.646943,118.70847 L112.646943,72.5084699 C112.646943,66.0467383 107.408674,60.8084699 100.946943,60.8084699 Z M93.646,79.808 L93.646,111.408 L51.046,111.408 L51.046,79.808 L93.646,79.808 Z\" fill-rule=\"nonzero\"></path><path d=\"M87.9366521,16.90916 L87.9194966,68.2000001 C87.9183543,69.4147389 86.9334998,70.399264 85.7187607,70.4 L56.9423078,70.4 C55.7272813,70.4 54.7423078,69.4150264 54.7423078,68.2 L54.7423078,39.4621057 C54.7423078,37.2523513 55.5736632,35.1234748 57.0711706,33.4985176 L76.4832996,12.4342613 C78.9534987,9.75382857 83.1289108,9.5834005 85.8093436,12.0535996 C87.1658473,13.303709 87.9372691,15.0644715 87.9366521,16.90916 Z\" fill-rule=\"evenodd\"></path><path d=\"M131.3,111.241199 L11.7,111.241199 C5.23826843,111.241199 0,116.479467 0,122.941199 L0,200.541199 C0,207.002931 5.23826843,212.241199 11.7,212.241199 L131.3,212.241199 C137.761732,212.241199 143,207.002931 143,200.541199 L143,122.941199 C143,116.479467 137.761732,111.241199 131.3,111.241199 Z M124,130.241 L124,193.241 L19,193.241 L19,130.241 L124,130.241 Z\" fill-rule=\"nonzero\"></path></g></g><path d=\"M51,218 L205,218 C211.075132,218 216,222.924868 216,229 C216,235.075132 211.075132,240 205,240 L51,240 C44.9248678,240 40,235.075132 40,229 C40,222.924868 44.9248678,218 51,218 Z\" id=\"change-background-color-icon\" style=\"fill:#FA541C\"></path></g></g></svg>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "icon",
+                    "source": "fullscreen",
+                    "target": "fullscreen"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "icon",
+                    "source": "paintbrush",
+                    "target": "paintbrush"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Improve writing",
+                    "target": "改进写作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Fix spelling & grammar",
+                    "target": "修复拼写与语法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Make shorter",
+                    "target": "精简内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Make longer",
+                    "target": "扩充内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Simplify language",
+                    "target": "简化语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Professional tone",
+                    "target": "专业语气"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Casual tone",
+                    "target": "随意语气"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "English",
+                    "target": "英语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Chinese",
+                    "target": "中文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Japanese",
+                    "target": "日语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "German",
+                    "target": "德语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "French",
+                    "target": "法语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Spanish",
+                    "target": "西班牙语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Explain this",
+                    "target": "解释此内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Summarize",
+                    "target": "总结"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Continue writing",
+                    "target": "继续写作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Convert to list",
+                    "target": "转换为列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Convert to table",
+                    "target": "转换为表格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Generate frontmatter",
+                    "target": "生成前置元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Convert to canvas",
+                    "target": "转换为画布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Note",
+                    "target": "笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Abstract",
+                    "target": "摘要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Info",
+                    "target": "信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Todo",
+                    "target": "待办"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Important",
+                    "target": "重要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Tip",
+                    "target": "提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Success",
+                    "target": "成功"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Question",
+                    "target": "疑问"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Warning",
+                    "target": "警告"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Failure",
+                    "target": "失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Danger",
+                    "target": "危险"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Bug",
+                    "target": "缺陷"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Example",
+                    "target": "示例"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Quote",
+                    "target": "引用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "📝 总结要点",
+                    "target": "📝 总结要点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "提炼任务",
+                    "target": "提炼任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "生成 Dataview",
+                    "target": "生成 Dataview"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "设计 Templater 模板",
+                    "target": "设计 Templater 模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "绘制 Mermaid 图表",
+                    "target": "绘制 Mermaid 图表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "设计 YAML",
+                    "target": "设计 YAML"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "使用Callout包装",
+                    "target": "使用Callout包装"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "📝 Summarize Key Points",
+                    "target": "📝 Summarize Key Points"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extract Tasks",
+                    "target": "Extract Tasks"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Generate Dataview",
+                    "target": "Generate Dataview"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Design Templater Template",
+                    "target": "Design Templater Template"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create Mermaid Diagram",
+                    "target": "Create Mermaid Diagram"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Design YAML",
+                    "target": "Design YAML"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Wrap with Callout",
+                    "target": "Wrap with Callout"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Undo Edit",
+                    "target": "撤销编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Redo Edit",
+                    "target": "重做编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Format Brush",
+                    "target": "格式刷"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clear Text Formatting",
+                    "target": "清除文本格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Header 2",
+                    "target": "标题 2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Header 3",
+                    "target": "标题 3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "submenu",
+                    "target": "子菜单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Header 1",
+                    "target": "标题 1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Header 4",
+                    "target": "标题 4"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Header 5",
+                    "target": "标题 5"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Header 6",
+                    "target": "标题 6"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bold",
+                    "target": "加粗"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Italic",
+                    "target": "斜体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Strikethrough",
+                    "target": "删除线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Underline",
+                    "target": "下划线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Highlight",
+                    "target": "高亮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Text Tools",
+                    "target": "文本工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Get Plain Text",
+                    "target": "获取纯文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Full Half Converter",
+                    "target": "全半角转换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Line Operations",
+                    "target": "行操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Blank Lines",
+                    "target": "插入空行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Remove Blank Lines",
+                    "target": "删除空行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Split Lines",
+                    "target": "拆分行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Merge Lines",
+                    "target": "合并行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dedupe Lines",
+                    "target": "去重行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Text Processing",
+                    "target": "文本处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add Prefix/Suffix",
+                    "target": "添加前缀/后缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Number Lines (Custom)",
+                    "target": "编号行（自定义）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Trim Line Ends",
+                    "target": "修剪行尾"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Shrink Extra Spaces",
+                    "target": "收缩多余空格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Remove All Whitespace",
+                    "target": "删除所有空白"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Advanced Tools",
+                    "target": "高级工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "List to Table",
+                    "target": "列表转表格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Table to List",
+                    "target": "表格转列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extract Between Strings",
+                    "target": "提取字符串间内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cut",
+                    "target": "剪切"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy",
+                    "target": "复制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Paste",
+                    "target": "粘贴"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Swap Line Down",
+                    "target": "下移一行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Swap Line Up",
+                    "target": "上移行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Attach File",
+                    "target": "附加文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Table",
+                    "target": "插入表格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cycle List and Checklist",
+                    "target": "循环列表与复选框列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Blockquote",
+                    "target": "块引用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Callout",
+                    "target": "标注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Superscript",
+                    "target": "上标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Subscript",
+                    "target": "下标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Inline Code",
+                    "target": "行内代码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Code Block",
+                    "target": "代码块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Wikilink",
+                    "target": "Wiki链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Embed",
+                    "target": "嵌入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Link",
+                    "target": "链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Horizontal Divider",
+                    "target": "水平分割线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Inline Math",
+                    "target": "行内数学"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MathBlock",
+                    "target": "数学块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Checklist",
+                    "target": "复选框列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Renumber Ordered List",
+                    "target": "重新编号有序列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ordered List",
+                    "target": "有序列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Unordered List",
+                    "target": "无序列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Unindent List",
+                    "target": "减少缩进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Indent list",
+                    "target": "增加缩进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Justify Text",
+                    "target": "两端对齐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Align Text Left",
+                    "target": "左对齐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Center Text",
+                    "target": "居中对齐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Align Text Right",
+                    "target": "右对齐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Change Font Color",
+                    "target": "更改字体颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Change Background Color",
+                    "target": "更改背景颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fullscreen Focus Mode",
+                    "target": "全屏专注模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Workplace Fullscreen",
+                    "target": "工作区全屏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "filter",
+                    "target": "筛选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "choose",
+                    "target": "选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "start",
+                    "target": "开始"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "clone",
+                    "target": "克隆"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "change",
+                    "target": "更改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "unchoose",
+                    "target": "取消选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "add",
+                    "target": "添加"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "remove",
+                    "target": "移除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "sort",
+                    "target": "排序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "update",
+                    "target": "更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "end",
+                    "target": "结束"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Italics",
+                    "target": "斜体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Code",
+                    "target": "代码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Left sidebar",
+                    "target": "左侧边栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add embed",
+                    "target": "添加嵌入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert markdown link",
+                    "target": "插入Markdown链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add tag",
+                    "target": "添加标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add internal link",
+                    "target": "添加内部链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Checklist status",
+                    "target": "复选框状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Comment",
+                    "target": "评论"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Callout",
+                    "target": "插入标注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "item",
+                    "target": "项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Embed",
+                    "target": "插入嵌入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Link",
+                    "target": "插入链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Tag",
+                    "target": "插入标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Internal link",
+                    "target": "插入内部链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Code",
+                    "target": "插入代码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Blockquote",
+                    "target": "插入块引用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Comment",
+                    "target": "插入评论"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert MathBlock",
+                    "target": "插入数学块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clear Formatting",
+                    "target": "清除格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hide/Show ",
+                    "target": "隐藏/显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Top Toolbar",
+                    "target": "切换顶部工具栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Following Toolbar",
+                    "target": "切换跟随工具栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Fixed Toolbar",
+                    "target": "切换固定工具栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Format Eraser",
+                    "target": "格式刷"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Indent List",
+                    "target": "增加缩进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Numbered List",
+                    "target": "编号列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Bold",
+                    "target": "切换粗体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Italics",
+                    "target": "切换斜体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Strikethrough",
+                    "target": "切换删除线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Inline Math",
+                    "target": "切换行内数学"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Callout(Modal)",
+                    "target": "插入标注（模态框）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Link(Modal)",
+                    "target": "插入链接（模态框）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Fullscreen Focus Mode",
+                    "target": "切换全屏专注模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Workplace Fullscreen Focus",
+                    "target": "切换工作区全屏专注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Format Brush",
+                    "target": "切换格式刷"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "AI Tools",
+                    "target": "AI工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Center",
+                    "target": "居中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Left Align",
+                    "target": "左对齐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Right Align",
+                    "target": "右对齐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Justify",
+                    "target": "两端对齐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Font Color",
+                    "target": "字体颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Background Color",
+                    "target": "背景颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            .changelog-container {\n                margin-top: 20px;\n                margin-bottom: 20px;\n                padding: 10px;\n                border: 1px solid var(--background-modifier-border);\n                border-radius: 5px;\n                max-height: 200px;\n                overflow-y: auto;\n            }\n            .changelog-content {\n                padding: 0 10px;\n            }\n            .changelog-content a {\n                text-decoration: underline;\n            }\n            ",
+                    "target": "\n            .changelog-container {\n                margin-top: 20px;\n                margin-bottom: 20px;\n                padding: 10px;\n                border: 1px solid var(--background-modifier-border);\n                border-radius: 5px;\n                max-height: 200px;\n                overflow-y: auto;\n            }\n            .changelog-content {\n                padding: 0 10px;\n            }\n            .changelog-content a {\n                text-decoration: underline;\n            }\n            "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📄",
+                    "target": "📄"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Trigger AI Inline Completion",
+                    "target": "触发AI行内补全"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "AI Custom Rewrite",
+                    "target": "AI自定义重写"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "log(\"Editing Toolbar: Failed to find target DOM element for toolbar insertion\")",
+                    "target": "log(\"Editing Toolbar: Failed to find target DOM element for toolbar insertion\")"
+                },
+                {
+                    "source": "error(\"修复命令ID时出错:\",t),new e.Notice(v(\"Error repairing command IDs, please check the console for details\")",
+                    "target": "error(\"修复命令ID时出错:\",t),new e.Notice(v(\"Error repairing command IDs, please check the console for details\")"
+                },
+                {
+                    "source": "error(\"恢复默认设置时出错:\",t),new e.Notice(v(\"Error restoring default settings, please check the console for details\")",
+                    "target": "error(\"恢复默认设置时出错:\",t),new e.Notice(v(\"Error restoring default settings, please check the console for details\")"
+                },
+                {
+                    "source": "setButtonText(\"保存\")",
+                    "target": "setButtonText(\"保存\")"
+                },
+                {
+                    "source": "error(\"无法复制文本: \",e)})}),i.addEventListener(\"mouseenter\",()=>{i.style.backgroundColor=\"var(--interactive-accent)\",i.style.color=\"var(--text-on-accent)\"}),i.addEventListener(\"mouseleave\",()=>{i.style.backgroundColor=\"\",i.style.color=\"\"})})}const d=new e.Setting(t).setName(v(\"Prefix\")",
+                    "target": "error(\"无法复制文本: \",e)})}),i.addEventListener(\"mouseenter\",()=>{i.style.backgroundColor=\"var(--interactive-accent)\",i.style.color=\"var(--text-on-accent)\"}),i.addEventListener(\"mouseleave\",()=>{i.style.backgroundColor=\"\",i.style.color=\"\"})})}const d=new e.Setting(t).setName(v(\"Prefix\")"
+                },
+                {
+                    "source": "error(\"Failed to copy: \",t),new e.Notice(v(\"Failed to copy configuration\")",
+                    "target": "error(\"Failed to copy: \",t),new e.Notice(v(\"Failed to copy configuration\")"
+                },
+                {
+                    "source": "setButtonText(\"overwrite\"===this.importMode?v(\"Overwrite Import\")",
+                    "target": "setButtonText(\"overwrite\"===this.importMode?v(\"Overwrite Import\")"
+                },
+                {
+                    "source": "setText(\"overwrite\"===this.importMode?v(\"Warning: Overwrite mode will replace existing settings with imported ones.\")",
+                    "target": "setText(\"overwrite\"===this.importMode?v(\"Warning: Overwrite mode will replace existing settings with imported ones.\")"
+                },
+                {
+                    "source": "error(\"Import error: \",t),new e.Notice(v(\"Error: \")",
+                    "target": "error(\"Import error: \",t),new e.Notice(v(\"Error: \")"
+                },
+                {
+                    "source": "Notice(`${v(\"Failed to load Ollama models:\")} ${this.cachedCustomOllamaModelsError}`)",
+                    "target": "Notice(`${v(\"Failed to load Ollama models:\")} ${this.cachedCustomOllamaModelsError}`)"
+                },
+                {
+                    "source": "Notice(\"The selected style has no commands to import.\")",
+                    "target": "Notice(\"The selected style has no commands to import.\")"
+                },
+                {
+                    "source": "Notice(`Commands imported successfully from \"${a}\" to \"${this.currentEditingConfig}\" `+v(\"configuration\")),this.display()}})})),i.addButton(t=>t.setButtonText(v(\"Clear\")+\" \"+`${this.currentEditingConfig}`)",
+                    "target": "Notice(`Commands imported successfully from \"${a}\" to \"${this.currentEditingConfig}\" `+v(\"configuration\")),this.display()}})})),i.addButton(t=>t.setButtonText(v(\"Clear\")+\" \"+`${this.currentEditingConfig}`)"
+                },
+                {
+                    "source": "Notice(\"All commands have been removed.\")",
+                    "target": "Notice(\"All commands have been removed.\")"
+                },
+                {
+                    "source": "error(\"Failed to set icon:\",e)}})}triggerRefresh(){setTimeout(()=>{dispatchEvent(new Event(\"editingToolbar-NewCommand\")",
+                    "target": "error(\"Failed to set icon:\",e)}})}triggerRefresh(){setTimeout(()=>{dispatchEvent(new Event(\"editingToolbar-NewCommand\")"
+                },
+                {
+                    "source": "setText(`${e.Platform.isMacOS?\"⌘\":\"Ctrl\"} + Enter ${v(\"to insert\")}`)",
+                    "target": "setText(`${e.Platform.isMacOS?\"⌘\":\"Ctrl\"} + Enter ${v(\"to insert\")}`)"
+                },
+                {
+                    "source": "Notice(`${v(\"Merged with\")} '${t}' ${v(\"Merge completed\")}`)",
+                    "target": "Notice(`${v(\"Merged with\")} '${t}' ${v(\"Merge completed\")}`)"
+                },
+                {
+                    "source": "Notice(`${v(\"Deduplication completed, remaining\")} ${s.length} ${v(\"lines\")}`)",
+                    "target": "Notice(`${v(\"Deduplication completed, remaining\")} ${s.length} ${v(\"lines\")}`)"
+                },
+                {
+                    "source": "Notice(`${v(\"Numbering completed: starting from\")} ${o}`)",
+                    "target": "Notice(`${v(\"Numbering completed: starting from\")} ${o}`)"
+                },
+                {
+                    "source": "Notice(`${v(\"Extracted\")} ${c.length} ${v(\"matches\")}`)",
+                    "target": "Notice(`${v(\"Extracted\")} ${c.length} ${v(\"matches\")}`)"
+                },
+                {
+                    "source": "error(\"读取剪贴板失败:\",t),void new e.Notice(v(\"Please select text first\")",
+                    "target": "error(\"读取剪贴板失败:\",t),void new e.Notice(v(\"Please select text first\")"
+                },
+                {
+                    "source": "error(\"正则表达式命令执行错误:\",t),new e.Notice(v(\"Regex command execution error: \")",
+                    "target": "error(\"正则表达式命令执行错误:\",t),new e.Notice(v(\"Regex command execution error: \")"
+                },
+                {
+                    "source": "error(\"Paste failed:\",e)}})},icon:\"lucide-clipboard-type\"}),this.plugin.addCommand({id:\"editor-cut\",name:\"Cut\",callback:()=>{const e=this.getActiveEditor();e&&this.executeCommandWithoutBlur(e,async()=>{try{await window.navigator.clipboard.writeText(e.getSelection()),e.replaceSelection(\"\")",
+                    "target": "error(\"Paste failed:\",e)}})},icon:\"lucide-clipboard-type\"}),this.plugin.addCommand({id:\"editor-cut\",name:\"Cut\",callback:()=>{const e=this.getActiveEditor();e&&this.executeCommandWithoutBlur(e,async()=>{try{await window.navigator.clipboard.writeText(e.getSelection()),e.replaceSelection(\"\")"
+                },
+                {
+                    "source": "log(\"当前浏览器不支持Fullscreen API !\")",
+                    "target": "log(\"当前浏览器不支持Fullscreen API !\")"
+                },
+                {
+                    "source": "error(\"PKMer OAuth login error:\",t),new e.Notice(v(\"Login failed. Please try again.\")",
+                    "target": "error(\"PKMer OAuth login error:\",t),new e.Notice(v(\"Login failed. Please try again.\")"
+                },
+                {
+                    "source": "error(\"PKMer OAuth callback error:\",t),new e.Notice(v(\"Login failed. Please try again.\")",
+                    "target": "error(\"PKMer OAuth callback error:\",t),new e.Notice(v(\"Login failed. Please try again.\")"
+                },
+                {
+                    "source": "Notice(`Failed to start login server: ${o.message}`)",
+                    "target": "Notice(`Failed to start login server: ${o.message}`)"
+                },
+                {
+                    "source": "error(\"[AI Rewrite] Failed to copy result:\",t),new e.Notice(t instanceof Error&&t.message?t.message:v(\"Copy to Clipboard\")",
+                    "target": "error(\"[AI Rewrite] Failed to copy result:\",t),new e.Notice(t instanceof Error&&t.message?t.message:v(\"Copy to Clipboard\")"
+                },
+                {
+                    "source": "error(\"[AI Artifact] Failed to create file:\",t),!0}}(t,o,n,\"replace\"===i?\"create\":\"embed\")",
+                    "target": "error(\"[AI Artifact] Failed to create file:\",t),!0}}(t,o,n,\"replace\"===i?\"create\":\"embed\")"
+                },
+                {
+                    "source": "error(\"[AI Rewrite] Error:\",e),this.view.dispatch({effects:zi.of(void 0)})}}destroy(){this.abortController?.abort()}}),l=o.Prec.highest(n.keymap.of([{key:Vi.close.primaryKey,run:e=>Yi(e,s)},{key:\"Escape\",run:e=>Yi(e,s)},{key:Vi.replace.primaryKey,run:e=>!!Wi(e,s,!0)&&(Ji(e,s,a,\"replace\")",
+                    "target": "error(\"[AI Rewrite] Error:\",e),this.view.dispatch({effects:zi.of(void 0)})}}destroy(){this.abortController?.abort()}}),l=o.Prec.highest(n.keymap.of([{key:Vi.close.primaryKey,run:e=>Yi(e,s)},{key:\"Escape\",run:e=>Yi(e,s)},{key:Vi.replace.primaryKey,run:e=>!!Wi(e,s,!0)&&(Ji(e,s,a,\"replace\")"
+                },
+                {
+                    "source": "error(\"[AI Settings] Failed to determine provider route:\",e),v(\"Unable to determine current AI route.\")",
+                    "target": "error(\"[AI Settings] Failed to determine provider route:\",e),v(\"Unable to determine current AI route.\")"
+                },
+                {
+                    "source": "Notice(`${v(\"Custom model connection succeeded.\")} ${t}`.trim()),!0}catch(t){const o=Wo(t);return new e.Notice(`${v(\"Custom model connection failed:\")} ${o}`)",
+                    "target": "Notice(`${v(\"Custom model connection succeeded.\")} ${t}`.trim()),!0}catch(t){const o=Wo(t);return new e.Notice(`${v(\"Custom model connection failed:\")} ${o}`)"
+                },
+                {
+                    "source": "Notice(\"Please select text first\")",
+                    "target": "Notice(\"Please select text first\")"
+                },
+                {
+                    "source": "Notice(`${v(\"Canvas AI added\")} ${s.addedNodeCount} ${v(\"nodes to the board.\")}`)",
+                    "target": "Notice(`${v(\"Canvas AI added\")} ${s.addedNodeCount} ${v(\"nodes to the board.\")}`)"
+                },
+                {
+                    "source": "error(\"[Canvas AI] Failed to expand current node:\",t),!1}}async runCanvasGlobalInstruction(t,o,n){if(!this.plugin.settings.ai.enabled)return new e.Notice(v(\"AI features are disabled in settings.\")",
+                    "target": "error(\"[Canvas AI] Failed to expand current node:\",t),!1}}async runCanvasGlobalInstruction(t,o,n){if(!this.plugin.settings.ai.enabled)return new e.Notice(v(\"AI features are disabled in settings.\")"
+                },
+                {
+                    "source": "Notice(`${v(\"Canvas AI updated the board:\")} ${r.addedNodeCount} ${v(\"nodes\")}, ${r.addedEdgeCount} ${v(\"links\")}.`)",
+                    "target": "Notice(`${v(\"Canvas AI updated the board:\")} ${r.addedNodeCount} ${v(\"nodes\")}, ${r.addedEdgeCount} ${v(\"links\")}.`)"
+                },
+                {
+                    "source": "Notice(`${v(\"Created AI file:\")} ${l.path}`)",
+                    "target": "Notice(`${v(\"Created AI file:\")} ${l.path}`)"
+                },
+                {
+                    "source": "Notice(`${v(\"Created AI file:\")} ${r}`)",
+                    "target": "Notice(`${v(\"Created AI file:\")} ${r}`)"
+                },
+                {
+                    "source": "log(\"editingToolbar v\"+t+\" loaded\")",
+                    "target": "log(\"editingToolbar v\"+t+\" loaded\")"
+                },
+                {
+                    "source": "setTitle(\"Edit Link(Modal)\")",
+                    "target": "setTitle(\"Edit Link(Modal)\")"
+                },
+                {
+                    "source": "log(\"editing toolbar disable loading on mobile\")",
+                    "target": "log(\"editing toolbar disable loading on mobile\")"
+                },
+                {
+                    "source": "log(\"editingToolbar unloaded\")",
+                    "target": "log(\"editingToolbar unloaded\")"
+                },
+                {
+                    "source": "name: \":\"",
+                    "target": "name: \":\""
+                },
+                {
+                    "source": "name: \",\"",
+                    "target": "name: \",\""
+                },
+                {
+                    "source": "link:\"内部链接\"",
+                    "target": "link:\"内部链接\""
+                },
+                {
+                    "source": "name: \")});const o=new e.TextComponent(t);o.inputEl.classList.add(\"",
+                    "target": "name: \")});const o=new e.TextComponent(t);o.inputEl.classList.add(\""
+                },
+                {
+                    "source": "name:\"📝 总结要点\"",
+                    "target": "name:\"📝 总结要点\""
+                },
+                {
+                    "source": "name:\"提炼任务\"",
+                    "target": "name:\"提炼任务\""
+                },
+                {
+                    "source": "name:\"生成 Dataview\"",
+                    "target": "name:\"生成 Dataview\""
+                },
+                {
+                    "source": "name:\"设计 Templater 模板\"",
+                    "target": "name:\"设计 Templater 模板\""
+                },
+                {
+                    "source": "name:\"绘制 Mermaid 图表\"",
+                    "target": "name:\"绘制 Mermaid 图表\""
+                },
+                {
+                    "source": "name:\"设计 YAML\"",
+                    "target": "name:\"设计 YAML\""
+                },
+                {
+                    "source": "name:\"使用Callout包装\"",
+                    "target": "name:\"使用Callout包装\""
+                },
+                {
+                    "source": "name:\"📝 Summarize Key Points\"",
+                    "target": "name:\"📝 Summarize Key Points\""
+                },
+                {
+                    "source": "name:\"Extract Tasks\"",
+                    "target": "name:\"Extract Tasks\""
+                },
+                {
+                    "source": "name:\"Generate Dataview\"",
+                    "target": "name:\"Generate Dataview\""
+                },
+                {
+                    "source": "name:\"Design Templater Template\"",
+                    "target": "name:\"Design Templater Template\""
+                },
+                {
+                    "source": "name:\"Create Mermaid Diagram\"",
+                    "target": "name:\"Create Mermaid Diagram\""
+                },
+                {
+                    "source": "name:\"Design YAML\"",
+                    "target": "name:\"Design YAML\""
+                },
+                {
+                    "source": "name:\"Wrap with Callout\"",
+                    "target": "name:\"Wrap with Callout\""
+                },
+                {
+                    "source": "name:\"Undo Edit\"",
+                    "target": "name:\"Undo Edit\""
+                },
+                {
+                    "source": "name:\"Redo Edit\"",
+                    "target": "name:\"Redo Edit\""
+                },
+                {
+                    "source": "name:\"Format Brush\"",
+                    "target": "name:\"Format Brush\""
+                },
+                {
+                    "source": "name:\"Clear Text Formatting\"",
+                    "target": "name:\"Clear Text Formatting\""
+                },
+                {
+                    "source": "name:\"Header 3\"",
+                    "target": "name:\"Header 3\""
+                },
+                {
+                    "source": "name:\"Header 1\"",
+                    "target": "name:\"Header 1\""
+                },
+                {
+                    "source": "name:\"Header 4\"",
+                    "target": "name:\"Header 4\""
+                },
+                {
+                    "source": "name:\"Header 5\"",
+                    "target": "name:\"Header 5\""
+                },
+                {
+                    "source": "name:\"Header 6\"",
+                    "target": "name:\"Header 6\""
+                },
+                {
+                    "source": "name:\"Text Tools\"",
+                    "target": "name:\"Text Tools\""
+                },
+                {
+                    "source": "name:\"Get Plain Text\"",
+                    "target": "name:\"Get Plain Text\""
+                },
+                {
+                    "source": "name:\"Full Half Converter\"",
+                    "target": "name:\"Full Half Converter\""
+                },
+                {
+                    "source": "name:\"Line Operations\"",
+                    "target": "name:\"Line Operations\""
+                },
+                {
+                    "source": "name:\"Insert Blank Lines\"",
+                    "target": "name:\"Insert Blank Lines\""
+                },
+                {
+                    "source": "name:\"Remove Blank Lines\"",
+                    "target": "name:\"Remove Blank Lines\""
+                },
+                {
+                    "source": "name:\"Split Lines\"",
+                    "target": "name:\"Split Lines\""
+                },
+                {
+                    "source": "name:\"Merge Lines\"",
+                    "target": "name:\"Merge Lines\""
+                },
+                {
+                    "source": "name:\"Dedupe Lines\"",
+                    "target": "name:\"Dedupe Lines\""
+                },
+                {
+                    "source": "name:\"Text Processing\"",
+                    "target": "name:\"Text Processing\""
+                },
+                {
+                    "source": "name:\"Add Prefix/Suffix\"",
+                    "target": "name:\"Add Prefix/Suffix\""
+                },
+                {
+                    "source": "name:\"Number Lines (Custom)\"",
+                    "target": "name:\"Number Lines (Custom)\""
+                },
+                {
+                    "source": "name:\"Trim Line Ends\"",
+                    "target": "name:\"Trim Line Ends\""
+                },
+                {
+                    "source": "name:\"Shrink Extra Spaces\"",
+                    "target": "name:\"Shrink Extra Spaces\""
+                },
+                {
+                    "source": "name:\"Remove All Whitespace\"",
+                    "target": "name:\"Remove All Whitespace\""
+                },
+                {
+                    "source": "name:\"Advanced Tools\"",
+                    "target": "name:\"Advanced Tools\""
+                },
+                {
+                    "source": "name:\"List to Table\"",
+                    "target": "name:\"List to Table\""
+                },
+                {
+                    "source": "name:\"Table to List\"",
+                    "target": "name:\"Table to List\""
+                },
+                {
+                    "source": "name:\"Extract Between Strings\"",
+                    "target": "name:\"Extract Between Strings\""
+                },
+                {
+                    "source": "name:\"Swap Line Down\"",
+                    "target": "name:\"Swap Line Down\""
+                },
+                {
+                    "source": "name:\"Swap Line Up\"",
+                    "target": "name:\"Swap Line Up\""
+                },
+                {
+                    "source": "name:\"Attach File\"",
+                    "target": "name:\"Attach File\""
+                },
+                {
+                    "source": "name:\"Insert Table\"",
+                    "target": "name:\"Insert Table\""
+                },
+                {
+                    "source": "name:\"Cycle List and Checklist\"",
+                    "target": "name:\"Cycle List and Checklist\""
+                },
+                {
+                    "source": "name:\"Inline Code\"",
+                    "target": "name:\"Inline Code\""
+                },
+                {
+                    "source": "name:\"Code Block\"",
+                    "target": "name:\"Code Block\""
+                },
+                {
+                    "source": "name:\"Horizontal Divider\"",
+                    "target": "name:\"Horizontal Divider\""
+                },
+                {
+                    "source": "name:\"Inline Math\"",
+                    "target": "name:\"Inline Math\""
+                },
+                {
+                    "source": "name:\"Renumber Ordered List\"",
+                    "target": "name:\"Renumber Ordered List\""
+                },
+                {
+                    "source": "name:\"Ordered List\"",
+                    "target": "name:\"Ordered List\""
+                },
+                {
+                    "source": "name:\"Unordered List\"",
+                    "target": "name:\"Unordered List\""
+                },
+                {
+                    "source": "name:\"Unindent List\"",
+                    "target": "name:\"Unindent List\""
+                },
+                {
+                    "source": "name:\"Indent list\"",
+                    "target": "name:\"Indent list\""
+                },
+                {
+                    "source": "name:\"Justify Text\"",
+                    "target": "name:\"Justify Text\""
+                },
+                {
+                    "source": "name:\"Align Text Left\"",
+                    "target": "name:\"Align Text Left\""
+                },
+                {
+                    "source": "name:\"Center Text\"",
+                    "target": "name:\"Center Text\""
+                },
+                {
+                    "source": "name:\"Align Text Right\"",
+                    "target": "name:\"Align Text Right\""
+                },
+                {
+                    "source": "name:\"Change Font Color\"",
+                    "target": "name:\"Change Font Color\""
+                },
+                {
+                    "source": "name:\"Change Background Color\"",
+                    "target": "name:\"Change Background Color\""
+                },
+                {
+                    "source": "name:\"Fullscreen Focus Mode\"",
+                    "target": "name:\"Fullscreen Focus Mode\""
+                },
+                {
+                    "source": "name:\"Workplace Fullscreen\"",
+                    "target": "name:\"Workplace Fullscreen\""
+                },
+                {
+                    "source": "name: 'expression'",
+                    "target": "name: 'expression'"
+                },
+                {
+                    "source": "name:\",'    displayName: \"",
+                    "target": "name:\",'    displayName: \""
+                },
+                {
+                    "source": "name: \"Overview\"",
+                    "target": "name: \"Overview\""
+                },
+                {
+                    "source": "text:`${this.plugin.manifest.name} v${this.plugin.manifest.version} · ${v(\"Tips\")}`",
+                    "target": "text:`${this.plugin.manifest.name} v${this.plugin.manifest.version} · ${v(\"Tips\")}`"
+                },
+                {
+                    "source": "textContent=\"已复制!\"",
+                    "target": "textContent=\"已复制!\""
+                },
+                {
+                    "source": "text:\"Obsidian Editing Toolbar: \"",
+                    "target": "text:\"Obsidian Editing Toolbar: \""
+                },
+                {
+                    "source": "name:\"Left sidebar\"",
+                    "target": "name:\"Left sidebar\""
+                },
+                {
+                    "source": "name:\"Add embed\"",
+                    "target": "name:\"Add embed\""
+                },
+                {
+                    "source": "name:\"Insert markdown link\"",
+                    "target": "name:\"Insert markdown link\""
+                },
+                {
+                    "source": "name:\"Add tag\"",
+                    "target": "name:\"Add tag\""
+                },
+                {
+                    "source": "name:\"Add internal link\"",
+                    "target": "name:\"Add internal link\""
+                },
+                {
+                    "source": "name:\"Checklist status\"",
+                    "target": "name:\"Checklist status\""
+                },
+                {
+                    "source": "name:\"Insert Callout\"",
+                    "target": "name:\"Insert Callout\""
+                },
+                {
+                    "source": "text:`${v(\"Completion\")}: ${l(P(this.plugin.settings.ai,\"completion\"))}`",
+                    "target": "text:`${v(\"Completion\")}: ${l(P(this.plugin.settings.ai,\"completion\"))}`"
+                },
+                {
+                    "source": "text:`${v(\"Rewrite\")}: ${l(P(this.plugin.settings.ai,\"rewrite\"))}`",
+                    "target": "text:`${v(\"Rewrite\")}: ${l(P(this.plugin.settings.ai,\"rewrite\"))}`"
+                },
+                {
+                    "source": "text:`${v(\"Reasoning\")}: ${l(P(this.plugin.settings.ai,\"reasoning\"))}`",
+                    "target": "text:`${v(\"Reasoning\")}: ${l(P(this.plugin.settings.ai,\"reasoning\"))}`"
+                },
+                {
+                    "source": "text:`${v(\"Structured\")}: ${l(P(this.plugin.settings.ai,\"artifact\"))}`",
+                    "target": "text:`${v(\"Structured\")}: ${l(P(this.plugin.settings.ai,\"artifact\"))}`"
+                },
+                {
+                    "source": "text:\"📄\"",
+                    "target": "text:\"📄\""
+                },
+                {
+                    "source": "name:\"Insert Embed\"",
+                    "target": "name:\"Insert Embed\""
+                },
+                {
+                    "source": "name:\"Insert Link\"",
+                    "target": "name:\"Insert Link\""
+                },
+                {
+                    "source": "name:\"Insert Tag\"",
+                    "target": "name:\"Insert Tag\""
+                },
+                {
+                    "source": "name:\"Insert Internal link\"",
+                    "target": "name:\"Insert Internal link\""
+                },
+                {
+                    "source": "name:\"Insert Code\"",
+                    "target": "name:\"Insert Code\""
+                },
+                {
+                    "source": "name:\"Insert Blockquote\"",
+                    "target": "name:\"Insert Blockquote\""
+                },
+                {
+                    "source": "name:\"Insert Comment\"",
+                    "target": "name:\"Insert Comment\""
+                },
+                {
+                    "source": "name:\"Insert MathBlock\"",
+                    "target": "name:\"Insert MathBlock\""
+                },
+                {
+                    "source": "name:\"Clear Formatting\"",
+                    "target": "name:\"Clear Formatting\""
+                },
+                {
+                    "source": "name:\"Hide/Show \"",
+                    "target": "name:\"Hide/Show \""
+                },
+                {
+                    "source": "name:\"Toggle Top Toolbar\"",
+                    "target": "name:\"Toggle Top Toolbar\""
+                },
+                {
+                    "source": "name:\"Toggle Following Toolbar\"",
+                    "target": "name:\"Toggle Following Toolbar\""
+                },
+                {
+                    "source": "name:\"Toggle Fixed Toolbar\"",
+                    "target": "name:\"Toggle Fixed Toolbar\""
+                },
+                {
+                    "source": "name:\"Format Eraser\"",
+                    "target": "name:\"Format Eraser\""
+                },
+                {
+                    "source": "name:\"Indent List\"",
+                    "target": "name:\"Indent List\""
+                },
+                {
+                    "source": "name:\"Numbered List\"",
+                    "target": "name:\"Numbered List\""
+                },
+                {
+                    "source": "name:\"Toggle Bold\"",
+                    "target": "name:\"Toggle Bold\""
+                },
+                {
+                    "source": "name:\"Toggle Italics\"",
+                    "target": "name:\"Toggle Italics\""
+                },
+                {
+                    "source": "name:\"Toggle Strikethrough\"",
+                    "target": "name:\"Toggle Strikethrough\""
+                },
+                {
+                    "source": "name:\"Toggle Inline Math\"",
+                    "target": "name:\"Toggle Inline Math\""
+                },
+                {
+                    "source": "name:\"Insert Callout(Modal)\"",
+                    "target": "name:\"Insert Callout(Modal)\""
+                },
+                {
+                    "source": "name:\"Insert Link(Modal)\"",
+                    "target": "name:\"Insert Link(Modal)\""
+                },
+                {
+                    "source": "name:\"Toggle Fullscreen Focus Mode\"",
+                    "target": "name:\"Toggle Fullscreen Focus Mode\""
+                },
+                {
+                    "source": "name:\"Toggle Workplace Fullscreen Focus\"",
+                    "target": "name:\"Toggle Workplace Fullscreen Focus\""
+                },
+                {
+                    "source": "name:`Toggle ${e}`",
+                    "target": "name:`Toggle ${e}`"
+                },
+                {
+                    "source": "name:\"Toggle Format Brush\"",
+                    "target": "name:\"Toggle Format Brush\""
+                },
+                {
+                    "source": "name: \"${xn(t)}\"",
+                    "target": "name: \"${xn(t)}\""
+                },
+                {
+                    "source": "textContent=\"×\"",
+                    "target": "textContent=\"×\""
+                },
+                {
+                    "source": "textContent=`${s}${r} ${l}`",
+                    "target": "textContent=`${s}${r} ${l}`"
+                },
+                {
+                    "source": "name:\"AI Tools\"",
+                    "target": "name:\"AI Tools\""
+                },
+                {
+                    "source": "name:\"Left Align\"",
+                    "target": "name:\"Left Align\""
+                },
+                {
+                    "source": "name:\"Right Align\"",
+                    "target": "name:\"Right Align\""
+                },
+                {
+                    "source": "name:\"Font Color\"",
+                    "target": "name:\"Font Color\""
+                },
+                {
+                    "source": "name:\"Background Color\"",
+                    "target": "name:\"Background Color\""
+                }
+            ]
+        }
+    }
+}
