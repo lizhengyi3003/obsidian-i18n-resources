@@ -206,5 +206,18 @@
         "created_at": "2026-05-23T06:03:20.389Z",
         "updated_at": "2026-05-23T06:03:20.389Z",
         "type": "plugin"
+    },
+    {
+        "id": "H8VjkZruNX4iegWLrYpd0dv_9OnqPVnM",
+        "plugin": "obsidian-style-settings",
+        "language": "zh-cn",
+        "version": "1.0.9",
+        "supported_versions": "1.0.9",
+        "title": "[feichuan][zh-cn] Style Settings",
+        "description": "Style Settings Localization & Tweaks",
+        "hash": "29f605d129f605d129f605d129f605d1",
+        "created_at": "2026-05-23T06:03:25.653Z",
+        "updated_at": "2026-05-23T06:03:25.653Z",
+        "type": "plugin"
     }
 ]
