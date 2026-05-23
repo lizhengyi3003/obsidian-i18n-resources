@@ -219,5 +219,18 @@
         "created_at": "2026-05-23T06:03:25.653Z",
         "updated_at": "2026-05-23T06:03:25.653Z",
         "type": "plugin"
+    },
+    {
+        "id": "j310dngcB6KBS3tdm6-pERy9xUukJeCu",
+        "plugin": "templify",
+        "language": "zh-cn",
+        "version": "0.7.2",
+        "supported_versions": "0.7.2",
+        "title": "[feichuan][zh-cn] Templify",
+        "description": "Templify Localization & Tweaks",
+        "hash": "7e44abf77e44abf77e44abf77e44abf7",
+        "created_at": "2026-05-23T06:03:34.646Z",
+        "updated_at": "2026-05-23T06:03:34.646Z",
+        "type": "plugin"
     }
 ]
