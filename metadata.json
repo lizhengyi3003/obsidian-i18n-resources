@@ -154,5 +154,18 @@
         "created_at": "2026-05-23T06:02:17.666Z",
         "updated_at": "2026-05-23T06:02:17.666Z",
         "type": "plugin"
+    },
+    {
+        "id": "0DKVZHRk6aZ4qkGqNzNJFtDuQcMSfVkn",
+        "plugin": "obsidian-enhancing-export",
+        "language": "zh-cn",
+        "version": "1.11.1",
+        "supported_versions": "1.11.1",
+        "title": "[feichuan][zh-cn] Enhancing Export",
+        "description": "Enhancing Export Localization & Tweaks",
+        "hash": "3033ccf63033ccf63033ccf63033ccf6",
+        "created_at": "2026-05-23T06:02:29.018Z",
+        "updated_at": "2026-05-23T06:02:29.018Z",
+        "type": "plugin"
     }
 ]
