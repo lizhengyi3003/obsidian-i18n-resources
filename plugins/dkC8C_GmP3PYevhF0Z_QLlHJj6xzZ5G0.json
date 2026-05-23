@@ -1,0 +1,886 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "lineage",
+        "version": "1.0.0",
+        "title": "[feichuan][zh-cn] Lineage",
+        "description": "Lineage Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.8.5",
+        "author": "feichuan"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "ariaLabel",
+                    "source": "Progress through the document",
+                    "target": "文档进度"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Done",
+                    "target": "完成"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "blank",
+                    "target": "空白"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "This section does not match any splitting pattern",
+                    "target": "此部分不匹配任何拆分模式"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Cancel",
+                    "target": "取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[ERROR]: ",
+                    "target": "[错误]："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DEBUG]: ",
+                    "target": "[调试]："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[INFO]: ",
+                    "target": "[信息]："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Manage",
+                    "target": "管理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Choose how to split this section",
+                    "target": "选择如何拆分此部分"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Duplicate",
+                    "target": "重复"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Delete",
+                    "target": "删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[WARN]: ",
+                    "target": "[警告]："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "could not enter insert mode",
+                    "target": "无法进入插入模式"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied",
+                    "target": "已复制"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not copy link to clipboard",
+                    "target": "无法将链接复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Document updated externally",
+                    "target": "文档已在外部更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Content",
+                    "target": "内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "Is empty",
+                    "target": "为空"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Fit document",
+                    "target": "适应文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Fit active branch",
+                    "target": "适应活动分支"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Search actions",
+                    "target": "搜索操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "clock",
+                    "target": "时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "copy",
+                    "target": "复制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "eye",
+                    "target": "眼睛"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "focus",
+                    "target": "聚焦"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "globe",
+                    "target": "地球"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "history",
+                    "target": "历史"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "info",
+                    "target": "信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "keyboard",
+                    "target": "键盘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "merge",
+                    "target": "合并"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "minus",
+                    "target": "减号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "palette",
+                    "target": "调色板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "pen",
+                    "target": "笔"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "pencil",
+                    "target": "铅笔"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "pin",
+                    "target": "图钉"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "plus",
+                    "target": "加号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "save",
+                    "target": "保存"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "scissors",
+                    "target": "剪刀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "search",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "settings",
+                    "target": "设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "split",
+                    "target": "拆分"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "text",
+                    "target": "文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "trash",
+                    "target": "垃圾桶"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "outline",
+                    "target": "大纲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "cursor",
+                    "target": "光标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "General",
+                    "target": "通用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Appearance",
+                    "target": "外观"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Layout",
+                    "target": "布局"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setDesc(\n    `Hold '${isMacLike ? \"cmd\" : \"control\"}' to use the other option`\n  )",
+                    "target": "setDesc(\n    `Hold '${isMacLike ? \"cmd\" : \"control\"}' to use the other option`\n  )"
+                },
+                {
+                    "source": "Notice(\"Could not copy link to clipboard\")",
+                    "target": "Notice(\"Could not copy link to clipboard\")"
+                },
+                {
+                    "source": "setTitle(\"Choose how to split this section\")",
+                    "target": "setTitle(\"Choose how to split this section\")"
+                },
+                {
+                    "source": "Notice(\"Document updated externally\")",
+                    "target": "Notice(\"Document updated externally\")"
+                },
+                {
+                    "source": "Notice(\n      `Imported ${gingkoFiles.length} Gingko file${gingkoFiles.length === 1 ? \"\" : \"s\"}`\n    )",
+                    "target": "Notice(\n      `Imported ${gingkoFiles.length} Gingko file${gingkoFiles.length === 1 ? \"\" : \"s\"}`\n    )"
+                },
+                {
+                    "source": "selection: \"Export\"",
+                    "target": "selection: \"Export\""
+                },
+                {
+                    "source": "search: \"Fuzzy search\"",
+                    "target": "search: \"Fuzzy search\""
+                },
+                {
+                    "source": "search: \"Search\"",
+                    "target": "search: \"Search\""
+                },
+                {
+                    "source": "selection: \"Select\"",
+                    "target": "selection: \"Select\""
+                },
+                {
+                    "source": "settings: \"Settings\"",
+                    "target": "settings: \"Settings\""
+                },
+                {
+                    "source": "name: \"arrow-down-wide-narrow\"",
+                    "target": "name: \"arrow-down-wide-narrow\""
+                },
+                {
+                    "source": "name: \"arrow-left\"",
+                    "target": "name: \"arrow-left\""
+                },
+                {
+                    "source": "name: \"arrow-right\"",
+                    "target": "name: \"arrow-right\""
+                },
+                {
+                    "source": "name: \"arrow-up-narrow-wide\"",
+                    "target": "name: \"arrow-up-narrow-wide\""
+                },
+                {
+                    "source": "name: \"chevron-down\"",
+                    "target": "name: \"chevron-down\""
+                },
+                {
+                    "source": "name: \"chevron-right\"",
+                    "target": "name: \"chevron-right\""
+                },
+                {
+                    "source": "name: \"chevron-up\"",
+                    "target": "name: \"chevron-up\""
+                },
+                {
+                    "source": "name: \"clipboard-paste\"",
+                    "target": "name: \"clipboard-paste\""
+                },
+                {
+                    "source": "name: \"clock\"",
+                    "target": "name: \"clock\""
+                },
+                {
+                    "source": "name: \"copy\"",
+                    "target": "name: \"copy\""
+                },
+                {
+                    "source": "name: \"eye\"",
+                    "target": "name: \"eye\""
+                },
+                {
+                    "source": "name: \"file-minus\"",
+                    "target": "name: \"file-minus\""
+                },
+                {
+                    "source": "name: \"file-output\"",
+                    "target": "name: \"file-output\""
+                },
+                {
+                    "source": "name: \"file-pen\"",
+                    "target": "name: \"file-pen\""
+                },
+                {
+                    "source": "name: \"file-plus\"",
+                    "target": "name: \"file-plus\""
+                },
+                {
+                    "source": "name: \"file-symlink\"",
+                    "target": "name: \"file-symlink\""
+                },
+                {
+                    "source": "name: \"file-text\"",
+                    "target": "name: \"file-text\""
+                },
+                {
+                    "source": "name: \"file-up\"",
+                    "target": "name: \"file-up\""
+                },
+                {
+                    "source": "name: \"focus\"",
+                    "target": "name: \"focus\""
+                },
+                {
+                    "source": "name: \"globe\"",
+                    "target": "name: \"globe\""
+                },
+                {
+                    "source": "name: \"grip-vertical\"",
+                    "target": "name: \"grip-vertical\""
+                },
+                {
+                    "source": "name: \"heading-1\"",
+                    "target": "name: \"heading-1\""
+                },
+                {
+                    "source": "name: \"history\"",
+                    "target": "name: \"history\""
+                },
+                {
+                    "source": "name: \"info\"",
+                    "target": "name: \"info\""
+                },
+                {
+                    "source": "name: \"keyboard\"",
+                    "target": "name: \"keyboard\""
+                },
+                {
+                    "source": "name: \"merge\"",
+                    "target": "name: \"merge\""
+                },
+                {
+                    "source": "name: \"minus\"",
+                    "target": "name: \"minus\""
+                },
+                {
+                    "source": "name: \"more-vertical\"",
+                    "target": "name: \"more-vertical\""
+                },
+                {
+                    "source": "name: \"palette\"",
+                    "target": "name: \"palette\""
+                },
+                {
+                    "source": "name: \"panel-left-dashed\"",
+                    "target": "name: \"panel-left-dashed\""
+                },
+                {
+                    "source": "name: \"panel-right-dashed\"",
+                    "target": "name: \"panel-right-dashed\""
+                },
+                {
+                    "source": "name: \"pen\"",
+                    "target": "name: \"pen\""
+                },
+                {
+                    "source": "name: \"pencil\"",
+                    "target": "name: \"pencil\""
+                },
+                {
+                    "source": "name: \"pin\"",
+                    "target": "name: \"pin\""
+                },
+                {
+                    "source": "name: \"plus\"",
+                    "target": "name: \"plus\""
+                },
+                {
+                    "source": "name: \"rotate-ccw\"",
+                    "target": "name: \"rotate-ccw\""
+                },
+                {
+                    "source": "name: \"rotate-cw\"",
+                    "target": "name: \"rotate-cw\""
+                },
+                {
+                    "source": "name: \"save\"",
+                    "target": "name: \"save\""
+                },
+                {
+                    "source": "name: \"scan-search\"",
+                    "target": "name: \"scan-search\""
+                },
+                {
+                    "source": "name: \"scissors\"",
+                    "target": "name: \"scissors\""
+                },
+                {
+                    "source": "name: \"search\"",
+                    "target": "name: \"search\""
+                },
+                {
+                    "source": "name: \"settings\"",
+                    "target": "name: \"settings\""
+                },
+                {
+                    "source": "name: \"split\"",
+                    "target": "name: \"split\""
+                },
+                {
+                    "source": "name: \"text\"",
+                    "target": "name: \"text\""
+                },
+                {
+                    "source": "name: \"trash\"",
+                    "target": "name: \"trash\""
+                },
+                {
+                    "source": "name: \"x\"",
+                    "target": "name: \"x\""
+                },
+                {
+                    "source": "name: \"lineage-cards\"",
+                    "target": "name: \"lineage-cards\""
+                },
+                {
+                    "source": "name: \"lineage-split\"",
+                    "target": "name: \"lineage-split\""
+                },
+                {
+                    "source": "name: \"lineage-align-horizontal\"",
+                    "target": "name: \"lineage-align-horizontal\""
+                },
+                {
+                    "source": "name: \"lineage-align-vertical\"",
+                    "target": "name: \"lineage-align-vertical\""
+                },
+                {
+                    "source": "name: \"cards-gap\"",
+                    "target": "name: \"cards-gap\""
+                },
+                {
+                    "source": "name: \"outline\"",
+                    "target": "name: \"outline\""
+                },
+                {
+                    "source": "name: \"cursor-off\"",
+                    "target": "name: \"cursor-off\""
+                },
+                {
+                    "source": "name: \"cursor\"",
+                    "target": "name: \"cursor\""
+                },
+                {
+                    "source": "textContent = \"/\"",
+                    "target": "textContent = \"/\""
+                },
+                {
+                    "source": "textContent = \"Done\"",
+                    "target": "textContent = \"Done\""
+                },
+                {
+                    "source": "name: \"General\"",
+                    "target": "name: \"General\""
+                },
+                {
+                    "source": "name: \"Appearance\"",
+                    "target": "name: \"Appearance\""
+                },
+                {
+                    "source": "name: \"Layout\"",
+                    "target": "name: \"Layout\""
+                },
+                {
+                    "source": "textContent = `${/*info*/\n      ctx[4].label}`",
+                    "target": "textContent = `${/*info*/\n      ctx[4].label}`"
+                },
+                {
+                    "source": "textContent = `${/*sections*/\n      ctx[5]}`",
+                    "target": "textContent = `${/*sections*/\n      ctx[5]}`"
+                },
+                {
+                    "source": "textContent = `${/*chars*/\n      ctx[6]}`",
+                    "target": "textContent = `${/*chars*/\n      ctx[6]}`"
+                },
+                {
+                    "source": "textContent = \"blank\"",
+                    "target": "textContent = \"blank\""
+                },
+                {
+                    "source": "name: \"go_right\"",
+                    "target": "name: \"go_right\""
+                },
+                {
+                    "source": "name: \"go_left\"",
+                    "target": "name: \"go_left\""
+                },
+                {
+                    "source": "name: \"go_down\"",
+                    "target": "name: \"go_down\""
+                },
+                {
+                    "source": "name: \"go_up\"",
+                    "target": "name: \"go_up\""
+                },
+                {
+                    "source": "name: \"select_parent\"",
+                    "target": "name: \"select_parent\""
+                },
+                {
+                    "source": "name: \"navigate_to_next_node\"",
+                    "target": "name: \"navigate_to_next_node\""
+                },
+                {
+                    "source": "name: \"navigate_to_previous_node\"",
+                    "target": "name: \"navigate_to_previous_node\""
+                },
+                {
+                    "source": "name: \"go_to_beginning_of_group\"",
+                    "target": "name: \"go_to_beginning_of_group\""
+                },
+                {
+                    "source": "name: \"go_to_end_of_group\"",
+                    "target": "name: \"go_to_end_of_group\""
+                },
+                {
+                    "source": "name: \"go_to_beginning_of_column\"",
+                    "target": "name: \"go_to_beginning_of_column\""
+                },
+                {
+                    "source": "name: \"go_to_end_of_column\"",
+                    "target": "name: \"go_to_end_of_column\""
+                },
+                {
+                    "source": "name: \"navigate_back\"",
+                    "target": "name: \"navigate_back\""
+                },
+                {
+                    "source": "name: \"navigate_forward\"",
+                    "target": "name: \"navigate_forward\""
+                },
+                {
+                    "source": "name: \"enable_edit_mode\"",
+                    "target": "name: \"enable_edit_mode\""
+                },
+                {
+                    "source": "name: \"enable_edit_mode_and_place_cursor_at_start\"",
+                    "target": "name: \"enable_edit_mode_and_place_cursor_at_start\""
+                },
+                {
+                    "source": "name: \"enable_edit_mode_and_place_cursor_at_end\"",
+                    "target": "name: \"enable_edit_mode_and_place_cursor_at_end\""
+                },
+                {
+                    "source": "name: \"save_changes_and_exit_card\"",
+                    "target": "name: \"save_changes_and_exit_card\""
+                },
+                {
+                    "source": "name: \"disable_edit_mode\"",
+                    "target": "name: \"disable_edit_mode\""
+                },
+                {
+                    "source": "name: \"add_above\"",
+                    "target": "name: \"add_above\""
+                },
+                {
+                    "source": "name: \"add_below\"",
+                    "target": "name: \"add_below\""
+                },
+                {
+                    "source": "name: \"add_child\"",
+                    "target": "name: \"add_child\""
+                },
+                {
+                    "source": "name: \"add_parent_sibling\"",
+                    "target": "name: \"add_parent_sibling\""
+                },
+                {
+                    "source": "name: \"add_above_and_split\"",
+                    "target": "name: \"add_above_and_split\""
+                },
+                {
+                    "source": "name: \"add_below_and_split\"",
+                    "target": "name: \"add_below_and_split\""
+                },
+                {
+                    "source": "name: \"add_child_and_split\"",
+                    "target": "name: \"add_child_and_split\""
+                },
+                {
+                    "source": "name: \"move_node_up\"",
+                    "target": "name: \"move_node_up\""
+                },
+                {
+                    "source": "name: \"move_node_down\"",
+                    "target": "name: \"move_node_down\""
+                },
+                {
+                    "source": "name: \"move_node_right\"",
+                    "target": "name: \"move_node_right\""
+                },
+                {
+                    "source": "name: \"move_node_left\"",
+                    "target": "name: \"move_node_left\""
+                },
+                {
+                    "source": "name: \"merge_with_node_above\"",
+                    "target": "name: \"merge_with_node_above\""
+                },
+                {
+                    "source": "name: \"merge_with_node_below\"",
+                    "target": "name: \"merge_with_node_below\""
+                },
+                {
+                    "source": "name: \"undo_change\"",
+                    "target": "name: \"undo_change\""
+                },
+                {
+                    "source": "name: \"redo_change\"",
+                    "target": "name: \"redo_change\""
+                },
+                {
+                    "source": "name: \"copy_node\"",
+                    "target": "name: \"copy_node\""
+                },
+                {
+                    "source": "name: \"copy_node_unformatted\"",
+                    "target": "name: \"copy_node_unformatted\""
+                },
+                {
+                    "source": "name: \"copy_node_without_subitems\"",
+                    "target": "name: \"copy_node_without_subitems\""
+                },
+                {
+                    "source": "name: \"cut_node\"",
+                    "target": "name: \"cut_node\""
+                },
+                {
+                    "source": "name: \"paste_node\"",
+                    "target": "name: \"paste_node\""
+                },
+                {
+                    "source": "name: \"select_all_nodes\"",
+                    "target": "name: \"select_all_nodes\""
+                },
+                {
+                    "source": "name: \"extend_select_up\"",
+                    "target": "name: \"extend_select_up\""
+                },
+                {
+                    "source": "name: \"extend_select_down\"",
+                    "target": "name: \"extend_select_down\""
+                },
+                {
+                    "source": "name: \"extend_select_to_end_of_column\"",
+                    "target": "name: \"extend_select_to_end_of_column\""
+                },
+                {
+                    "source": "name: \"extend_select_to_start_of_column\"",
+                    "target": "name: \"extend_select_to_start_of_column\""
+                },
+                {
+                    "source": "name: \"extend_select_to_end_of_group\"",
+                    "target": "name: \"extend_select_to_end_of_group\""
+                },
+                {
+                    "source": "name: \"extend_select_to_start_of_group\"",
+                    "target": "name: \"extend_select_to_start_of_group\""
+                },
+                {
+                    "source": "name: \"scroll_right\"",
+                    "target": "name: \"scroll_right\""
+                },
+                {
+                    "source": "name: \"scroll_left\"",
+                    "target": "name: \"scroll_left\""
+                },
+                {
+                    "source": "name: \"scroll_up\"",
+                    "target": "name: \"scroll_up\""
+                },
+                {
+                    "source": "name: \"scroll_down\"",
+                    "target": "name: \"scroll_down\""
+                },
+                {
+                    "source": "name: \"align_branch\"",
+                    "target": "name: \"align_branch\""
+                },
+                {
+                    "source": "name: \"delete_card\"",
+                    "target": "name: \"delete_card\""
+                },
+                {
+                    "source": "name: \"toggle_search_input\"",
+                    "target": "name: \"toggle_search_input\""
+                },
+                {
+                    "source": "name: \"zoom_in\"",
+                    "target": "name: \"zoom_in\""
+                },
+                {
+                    "source": "name: \"zoom_out\"",
+                    "target": "name: \"zoom_out\""
+                },
+                {
+                    "source": "name: \"zoom_reset\"",
+                    "target": "name: \"zoom_reset\""
+                },
+                {
+                    "source": "name: \"toggle_outline_mode\"",
+                    "target": "name: \"toggle_outline_mode\""
+                },
+                {
+                    "source": "name: \"toggle_collapse\"",
+                    "target": "name: \"toggle_collapse\""
+                },
+                {
+                    "source": "name: \"toggle_collapse_all\"",
+                    "target": "name: \"toggle_collapse_all\""
+                },
+                {
+                    "source": "name = \"Untitled\"",
+                    "target": "name = \"Untitled\""
+                },
+                {
+                    "source": "link = `[[${fileName}#^${output.blockId}]]`",
+                    "target": "link = `[[${fileName}#^${output.blockId}]]`"
+                },
+                {
+                    "source": "textContent = \"This section does not match any splitting pattern\"",
+                    "target": "textContent = \"This section does not match any splitting pattern\""
+                },
+                {
+                    "source": "textContent = \"Cancel\"",
+                    "target": "textContent = \"Cancel\""
+                },
+                {
+                    "source": "textContent = `${styleRulesLang.properties[\n        /*property*/\n        ctx[13]\n      ]}`",
+                    "target": "textContent = `${styleRulesLang.properties[\n        /*property*/\n        ctx[13]\n      ]}`"
+                },
+                {
+                    "source": "textContent = `${styleRulesLang.targets[\n        /*target*/\n        ctx[10]\n      ]}`",
+                    "target": "textContent = `${styleRulesLang.targets[\n        /*target*/\n        ctx[10]\n      ]}`"
+                },
+                {
+                    "source": "textContent = `${styleRulesLang.operators[\n        /*operator*/\n        ctx[5]\n      ]}`",
+                    "target": "textContent = `${styleRulesLang.operators[\n        /*operator*/\n        ctx[5]\n      ]}`"
+                },
+                {
+                    "source": "textContent = `${styleRulesLang.styleVariants[\n        /*styleType*/\n        ctx[3]\n      ]}`",
+                    "target": "textContent = `${styleRulesLang.styleVariants[\n        /*styleType*/\n        ctx[3]\n      ]}`"
+                },
+                {
+                    "source": "textContent = `${lang.modals_rules_no_rules}`",
+                    "target": "textContent = `${lang.modals_rules_no_rules}`"
+                },
+                {
+                    "source": "name: \"\"",
+                    "target": "name: \"\""
+                },
+                {
+                    "source": "textContent = `${lang.modals_rules_add_rule}`",
+                    "target": "textContent = `${lang.modals_rules_add_rule}`"
+                },
+                {
+                    "source": "name : \"\"",
+                    "target": "name : \"\""
+                }
+            ]
+        }
+    }
+}
