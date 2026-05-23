@@ -128,5 +128,18 @@
         "created_at": "2026-05-23T06:02:04.222Z",
         "updated_at": "2026-05-23T06:02:04.222Z",
         "type": "plugin"
+    },
+    {
+        "id": "dkC8C_GmP3PYevhF0Z_QLlHJj6xzZ5G0",
+        "plugin": "lineage",
+        "language": "zh-cn",
+        "version": "0.8.5",
+        "supported_versions": "0.8.5",
+        "title": "[feichuan][zh-cn] Lineage",
+        "description": "Lineage Localization & Tweaks",
+        "hash": "4ab424074ab424074ab424074ab42407",
+        "created_at": "2026-05-23T06:02:10.055Z",
+        "updated_at": "2026-05-23T06:02:10.055Z",
+        "type": "plugin"
     }
 ]
